@@ -1,2765 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <meta name="renderer" content="webkit">
-    <meta charset="utf-8">
-    <script nonce="csp-script-inline">window._timePoint = [Date.now()]</script>
-    <title data-n-head="true">myhtml</title>
-    <meta data-n-head="true" name="format-detection" content="telephone=no">
-    <meta data-n-head="true" name="baidu-site-verification" content="t7atHe6Bmg">
-    <meta data-n-head="true" name="google-site-verification" content="3pLBOl-EDDyA0yu81aLY9Evak7wYPTYrE6-UlNnBTH4">
-    <meta data-n-head="true" name="sogou_site_verification" content="lRvucs7aQZ">
-    <meta data-n-head="true" name="360-site-verification" content="3caf36bdd6fa177af7a0f5e6d4842743">
-    <meta data-n-head="true" name="msvalidate.01" content="FCA2094DE94F5E040FAC0442782B2DC5">
-    <meta data-n-head="true" http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta data-n-head="true" name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta data-n-head="true" baidu-gxt-verify-token="f3d9b0975165c566f6c31c65495ad811">
+    <meta charset="UTF-8">
+    <title>美食点评</title>
+    <link rel="stylesheet" type="text/css" href="css/indexstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
 
-    <link data-n-head="true" rel="preload" as="image"
-          href="http://shp.qpic.cn/pggamehead/0/1565783978_798_1980x725/0?new=1.0&amp;w=1980&amp;h=725">
-    <link data-n-head="true" rel="preload" as="script"
-          href="//egame.gtimg.cn/club/pgg_pcweb/v2/lib/flv-egame-b80b810fef.min.js?max_age=31536000">
-    <link data-n-head="true" rel="preload" as="script"
-          href="//egame.gtimg.cn/club/pgg_pcweb/v2/lib/qvbp2p_egame_v1.7.24.js?max_age=31536000">
-    <link data-n-head="true" rel="preload" as="script"
-          href="//egame.gtimg.cn/club/pgg_pcweb/v2/lib/EgPlayer-2.2.2.js?max_age=31536000&amp;v=2019072301">
-    <link data-n-head="true" rel="modulepreload" as="script"
-          href="//egame.gtimg.cn/club/pgg_pcweb/v2/06fb82d6fb8678b7db74.js?max_age=31536000">
-    <link data-n-head="true" rel="preconnect" href="//3954.liveplay.myqcloud.com" crossorigin="">
-    <link data-n-head="true" rel="preconnect" href="//3954-pcflv.liveplay.myqcloud.com" crossorigin="">
-    <link data-n-head="true" rel="preconnect" href="//3954-pchls.liveplay.myqcloud.com" crossorigin="">
-    <link data-n-head="true" rel="preconnect" href="//txpcdn-direct.liveplay.egame.qq.com" crossorigin="">
-    <link data-n-head="true" rel="preconnect" href="//txpcdn.liveplay.egame.qq.com" crossorigin="">
-    <script data-n-head="true" src="//pingjs.qq.com/h5/stats.js?v2.0.4" name="MTAH5" sid="500327636" cid="500327637"
-            head="true" defer="true"></script>
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/30dc3b2a2943ee98c14e.js?max_age=31536000"
-          as="script">
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/a84ea94450719e14ba88.js?max_age=31536000"
-          as="script">
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/99ecd52c3d37f46519b7.js?max_age=31536000"
-          as="script">
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/aa0ab5c3e4e1cd5e533f.js?max_age=31536000"
-          as="script">
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/6a3fd24abb6d7d5597fc.js?max_age=31536000"
-          as="script">
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/936ea82b842f770b923c.js?max_age=31536000"
-          as="script">
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/aa9f0205a457b821adee.js?max_age=31536000"
-          as="script">
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/da572b637bef4f671d20.js?max_age=31536000"
-          as="script">
-    <link rel="modulepreload" href="//egame.gtimg.cn/club/pgg_pcweb/v2/1a74ac3a8ca4b8655349.js?max_age=31536000"
-          as="script">
-    <link rel="stylesheet" href="//egame.gtimg.cn/club/pgg_pcweb/v2/577b4aabc847098b6707.css?max_age=31536000">
-    <link rel="stylesheet" href="//egame.gtimg.cn/club/pgg_pcweb/v2/577b4aabc847098b6707.css?max_age=31536000">
-    <link rel="stylesheet" href="//egame.gtimg.cn/club/pgg_pcweb/v2/28b5a8306e0790303892.css?max_age=31536000">
-    <link rel="stylesheet" href="//egame.gtimg.cn/club/pgg_pcweb/v2/04d97cecb07ece679317.css?max_age=31536000">
-    <link rel="stylesheet" href="//egame.gtimg.cn/club/pgg_pcweb/v2/47b88a27d1cdd98cd7aa.css?max_age=31536000">
-    <link rel="stylesheet" href="//egame.gtimg.cn/club/pgg_pcweb/v2/8fceca99ebdf7fa4a63b.css?max_age=31536000">
-    <!-- <link rel="stylesheet" type="text/css" href="//egame.gtimg.cn/club/pgg_pcweb/v2/css/ipad-live.css?max_age=31536000&v=2018102906" /> -->
-    <script nonce="csp-script-inline">window._timePoint[1] = Date.now()</script>
-    <script nonce="csp-script-inline">var logFunc = ["debug", "log", "info", "warn", "error", "group", "groupCollapsed", "table", "groupEnd"];
-    window.console = window.console || {};
-    for (var funcIndex = 0; funcIndex < logFunc.length; funcIndex++) console[logFunc[funcIndex]] = console[logFunc[funcIndex]] || function () {
-    }</script>
-    <script nonce="csp-script-inline">function insertScript(e, n, t) {
-        t = "function" == typeof n ? n : t, n = "fucntion" == typeof n ? null : n;
-        var o = document.getElementsByTagName("body")[0] || document.getElementsByTagName("head")[0],
-            a = document.createElement("script");
-        if (a.async = !0, a.defer = !0, n) for (var c in n) a[c] = n[c];
-        t && (a.onload = t), a.src = e, o.appendChild(a)
-    }</script>
-    <!--[if lt IE 9]>
-    <script nonce="csp-script-inline">"/error/ie" != location.pathname && (location.href = "/error/ie")</script>
-    <![endif]-->
-    <script nonce="csp-script-inline">insertScript("//egame.gtimg.cn/club/pgg_pcweb/v2/lib/bj-report.min.js?max_age=31536000", function () {
-        if (BJ_REPORT) {
-            var i = [/Script error/i, /Cannot read property 'trigger' of undefined/i, /viewport/i, /Cannot read property '2' of null/i, /getElementsByName/i, /yiqisee/i, /MyAppGetLinkSRCAtPoint/i, /MyAppGetHTMLElementsAtPoint/i, /MyAppGetLinkHREFAtPoint/i, /MyAppGetLinkTitleNameAtPoint/i, /bds/i, /tv_keydown/i, /evaluating 'h\.el\.trigger'/i, /https?:\/\/pingjs\.qq\.com/i, /https?:\/\/\d+(\.\d+){3}(:\d+)?[\/\w]*\.js/i, /https?:\/\/cdn\.rawgit\.com/i, /http?:\/\/push\.zhanzhang\.baidu\.com/i, /https?:\/\/sc\.58mingtian\.cn/i, /https?:\/\/m\.feiqinwangshi\.cn/i, /(https?:)?\/\/ioc\.cnyunxi\.cn/i, /https?:\/\/xiaohuav\.xyz/i, /ReferenceError: \“$\”未定义/i];
-            location.pathname in {
-                "/live": 1,
-                "/index": 1
-            } && i.push(/TypeError: ['"]?undefined['"]? is not a function/i);
-            var e, t;
-            document.querySelector && (e = 8, (t = document.createElement("b")).innerHTML = "\x3c!--[if IE " + e + "]><i></i><![endif]--\x3e", 1 !== t.getElementsByTagName("i").length) && BJ_REPORT && BJ_REPORT.init({
-                id: 136,
-                furl: "egame.qq.com" + location.pathname,
-                ignore: i
-            })
-        }
-    })</script>
-    <script async="" defer="" src="//egame.gtimg.cn/club/pgg_pcweb/v2/lib/bj-report.min.js?max_age=31536000"></script>
-    <script nonce="csp-script-inline">window._timePoint[2] = Date.now()</script>
-    <style>.ipad ::-webkit-scrollbar {
-        display: none
-    }</style>
-    <script nonce="csp-script-inline">!function () {
-        var e, t, s, i, a, n, d, o, r, g = document.documentElement,
-            c = (e = navigator.userAgent, t = /(?:Windows Phone)/.test(e), s = /(?:SymbianOS)/.test(e) || t, i = /(?:Android)/.test(e), a = /(?:Firefox)/.test(e), /(?:Chrome|CriOS)/.test(e), n = /(?:iPad|PlayBook)/.test(e) || i && !/(?:Mobile)/.test(e) || a && /(?:Tablet)/.test(e), d = /(?:iPhone)/.test(e) && !n, o = !(d || i || s || n), r = /Edge/i.test(navigator.userAgent), {
-                isTablet: n,
-                isPhone: d,
-                isAndroid: i,
-                isPc: o,
-                isEdge: r,
-                isIE: !r && /trident.*rv:(\d+\.\d+)|MSIE (\d+\.\d+)/i.test(navigator.userAgent),
-                ieVersion: parseInt(RegExp.$1 || RegExp.$2),
-                isQgamePad: /com.tencent.qghd/i.test(navigator.userAgent),
-                qgamePadVersion: (/com.tencent.qghd\/([\d]+\.[\d]+\.[\d]+\.[\d]+)/i.exec(navigator.userAgent) || [0, "0"])[1]
-            }), u = [g.className], h = location && location.search || "";
-        (c.isQgamePad || -1 < h.indexOf("pad_mode=1")) && (u.push("ipad"), window.isIPad = !0), /^1\.0/.test(c.qgamePadVersion) && u.push("review-a"), c.isTablet && u.push("tablet"), c.isPc && u.push("pc"), c.isEdge && u.push("edge"), c.isIE && (u.push("ie"), u.push("ie" + c.ieVersion)), g.className = u.join(" ")
-    }()</script>
-    <script nonce="csp-script-inline">!function () {
-        var t = document.createElement("script");
-        if (!("noModule" in t) && "onbeforeload" in t) {
-            var n = !1;
-            document.addEventListener("beforeload", function (e) {
-                if (e.target === t) n = !0; else if (!e.target.hasAttribute("nomodule") || !n) return;
-                e.preventDefault()
-            }, !0), t.type = "module", t.src = ".", document.head.appendChild(t), t.remove()
-        }
-    }()</script>
-    <script src="//egame.gtimg.cn/club/pgg_pcweb/v2/lib/flog.bundle.min.f5647a34c97c642a6f86ffd32ce7420a.js"></script>
-    <script nonce="csp-script-inline">try {
-        "function" != typeof window.persistanceLog && (window.persistanceLog = function () {
-        });
-        var logFunc = function (n) {
-            window.qgameExt && window.qgameExt.logMsg && window.qgameExt.logMsg(JSON.stringify(n)), window.qgnative && window.qgnative.log && window.qgnative.log(JSON.stringify(n))
-        };
-        "function" == typeof window.ListenFLog && window.ListenFLog({
-            limitNumber: 8e3,
-            deleteGap: 3,
-            excludeUA: "MicroMessenger",
-            logFunc: logFunc
-        })
-    } catch (n) {
-        console.log(n), window.BJ_REPORT && window.BJ_REPORT.push && window.BJ_REPORT.push(n)
-    }</script>
-    <style type="text/css">.vcp-player {
-        position: relative;
-        z-index: 0;
-        font-family: Tahoma, \\5FAE\8F6F\96C5\9ED1, \u5b8b\u4f53, Verdana, Arial, sans-serif;
-        background-color: #000
-    }
-
-    .vcp-player video {
-        display: block;
-        overflow: hidden
-    }
-
-    .vcp-fullscreen.vcp-player, .vcp-fullscreen video, body.vcp-full-window {
-        width: 100% !important;
-        height: 100% !important
-    }
-
-    body.vcp-full-window {
-        overflow-y: auto
-    }
-
-    .vcp-full-window .vcp-player {
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 2147483647
-    }
-
-    .vcp-pre-flash, .vcp-video {
-        width: 100%;
-        height: 100%
-    }
-
-    .vcp-pre-flash {
-        z-index: 999;
-        background: #000;
-        position: absolute;
-        top: 0;
-        left: 0
-    }
-
-    .vcp-controls-panel {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        font-size: 16px;
-        height: 3em;
-        z-index: 1000
-    }
-
-    .vcp-controls-panel.show {
-        animation: fadeIn ease .8s;
-        animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards
-    }
-
-    .vcp-controls-panel.hide {
-        animation: fadeOut ease .8s;
-        animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards
-    }
-
-    .vcp-panel-bg {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        background-color: #242424;
-        opacity: .8;
-        filter: alpha(opacity=80);
-        z-index: 1000
-    }
-
-    .vcp-playtoggle {
-        cursor: pointer;
-        position: relative;
-        z-index: 1001;
-        width: 3em;
-        height: 100%;
-        float: left;
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/play_btn.svg);
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/play_btn.png) \0
-    }
-
-    .vcp-playtoggle:focus, .vcp-playtoggle:hover {
-        background-color: #708090;
-        opacity: .9;
-        filter: alpha(opacity=90)
-    }
-
-    .touchable .vcp-playtoggle:hover {
-        background-color: transparent;
-        opacity: 1
-    }
-
-    .vcp-playing .vcp-playtoggle {
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/stop_btn.svg);
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/stop_btn.png) \0
-    }
-
-    .vcp-bigplay {
-        width: 100%;
-        height: 80%;
-        position: absolute;
-        background-color: white \0;
-        filter: alpha(opacity=0);
-        opacity: 0;
-        z-index: 1000;
-        top: 0;
-        left: 0
-    }
-
-    .vcp-slider {
-        position: relative;
-        z-index: 1001;
-        float: left;
-        background: #c4c4c4;
-        height: 10px;
-        opacity: .8;
-        filter: alpha(opacity=80);
-        cursor: pointer
-    }
-
-    .vcp-slider .vcp-slider-track {
-        width: 0;
-        height: 100%;
-        margin-top: 0;
-        opacity: 1;
-        filter: alpha(opacity=100);
-        background-color: #1e90ff
-    }
-
-    .vcp-slider .vcp-slider-thumb {
-        cursor: pointer;
-        background-color: #fff;
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-radius: 1em !important;
-        height: 10px;
-        margin-left: -5px;
-        width: 10px
-    }
-
-    .vcp-slider-vertical {
-        position: relative;
-        width: .5em;
-        height: 8em;
-        top: -5.6em;
-        z-index: 1001;
-        background-color: #1c1c1c;
-        opacity: .9;
-        filter: alpha(opacity=90);
-        cursor: pointer
-    }
-
-    .vcp-slider-vertical .vcp-slider-track {
-        background-color: #1275cf;
-        width: .5em;
-        height: 100%;
-        opacity: .8;
-        filter: alpha(opacity=80)
-    }
-
-    .vcp-slider-vertical .vcp-slider-thumb {
-        cursor: pointer;
-        position: absolute;
-        background-color: #f0f8ff;
-        width: .8em;
-        height: .8em;
-        border-radius: .8em !important;
-        margin-top: -.4em;
-        top: 0;
-        left: -.15em
-    }
-
-    .vcp-timeline {
-        top: -10px;
-        left: 0;
-        height: 10px;
-        position: absolute;
-        z-index: 1001;
-        width: 100%
-    }
-
-    .vcp-timeline .vcp-slider-thumb {
-        top: -4px
-    }
-
-    .vcp-timeline .vcp-slider {
-        margin-top: 8px;
-        height: 2px;
-        width: 100%
-    }
-
-    .vcp-timeline:hover .vcp-slider {
-        margin-top: 0;
-        height: 10px
-    }
-
-    .vcp-timeline:hover .vcp-slider-thumb {
-        display: block;
-        width: 16px;
-        height: 16px;
-        top: -3px;
-        margin-left: -8px
-    }
-
-    .vcp-timelabel {
-        display: inline-block;
-        line-height: 3em;
-        float: left;
-        color: #fff;
-        padding: 0 9px
-    }
-
-    .vcp-timelabel, .vcp-volume {
-        height: 3em;
-        z-index: 1001;
-        position: relative
-    }
-
-    .vcp-volume {
-        width: 3em;
-        cursor: pointer;
-        float: right;
-        background-color: transparent;
-        opacity: .9;
-        filter: alpha(opacity=90)
-    }
-
-    .vcp-volume-icon {
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/volume.svg);
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/volume.png) \0;
-        display: inline-block;
-        width: 3em;
-        height: 3em;
-        position: absolute;
-        left: 0;
-        top: 0
-    }
-
-    .vcp-volume-muted .vcp-volume-icon {
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/muted.svg);
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/muted.png) \0
-    }
-
-    .vcp-volume .vcp-slider-vertical {
-        top: -8.4em;
-        left: 1em;
-        display: none
-    }
-
-    .vcp-volume .vcp-slider-track {
-        position: absolute;
-        bottom: 0
-    }
-
-    .vcp-volume:hover .vcp-slider-vertical {
-        display: block
-    }
-
-    .vcp-volume .vcp-volume-bg {
-        height: 8.8em;
-        width: 2em;
-        position: absolute;
-        left: .25em;
-        top: -8.8em;
-        background: #242424;
-        display: none
-    }
-
-    .vcp-volume:hover .vcp-slider-vertical, .vcp-volume:hover .vcp-volume-bg {
-        display: block
-    }
-
-    .vcp-fullscreen-toggle {
-        position: relative;
-        width: 3em;
-        height: 3em;
-        float: right;
-        cursor: pointer;
-        z-index: 1001;
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/fullscreen.svg);
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/fullscreen.png) \0
-    }
-
-    .vcp-fullscreen .vcp-fullscreen-toggle {
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/fullscreen_exit.svg);
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/fullscreen_exit.png) \0
-    }
-
-    .vcp-loading {
-        box-sizing: border-box;
-        background-clip: padding-box;
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 -25px;
-        text-indent: -9999em
-    }
-
-    .vcp-loading:before {
-        box-sizing: inherit;
-        content: "";
-        display: block;
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        border: 3px solid hsla(0, 0%, 100%, 0);
-        border-left-color: #fff;
-        border-right-color: #fff;
-        transform: translateZ(0);
-        animation: load8 1.1s infinite linear
-    }
-
-    @keyframes load8 {
-        0% {
-            transform: rotate(0deg)
-        }
-        to {
-            transform: rotate(1turn)
-        }
-    }
-
-    .vcp-poster {
-        position: absolute;
-        left: 0;
-        top: 0;
-        overflow: hidden;
-        z-index: 1000;
-        width: 100%;
-        height: 100%;
-        display: none
-    }
-
-    .vcp-poster-pic {
-        position: relative
-    }
-
-    .vcp-poster-pic.cover, .vcp-poster-pic.default {
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%)
-    }
-
-    .vcp-poster-pic.cover {
-        width: 100%
-    }
-
-    .vcp-poster-pic.stretch {
-        width: 100%;
-        height: 100%
-    }
-
-    .vcp-error-tips {
-        position: absolute;
-        z-index: 1001;
-        width: 100%;
-        height: 4.5em;
-        left: 0;
-        top: 50%;
-        color: #ff4500;
-        margin-top: -5.25em;
-        text-align: center;
-        display: none
-    }
-
-    .vcp-clarityswitcher {
-        height: 3em;
-        width: 3em;
-        cursor: pointer;
-        position: relative;
-        z-index: 1001;
-        float: right;
-        background-color: transparent;
-        opacity: .9
-    }
-
-    .vcp-vertical-switcher-container {
-        width: 3em;
-        position: absolute;
-        left: 0;
-        bottom: 2.4em;
-        background: #242424;
-        display: none
-    }
-
-    .vcp-vertical-switcher-current {
-        display: block;
-        color: #fff;
-        text-align: center;
-        line-height: 3em
-    }
-
-    .vcp-vertical-switcher-item {
-        display: block;
-        color: #fff;
-        text-align: center;
-        line-height: 2em
-    }
-
-    .vcp-vertical-switcher-item.current {
-        color: #888
-    }
-
-    .vcp-share > a {
-        width: 3em;
-        height: 3em;
-        cursor: pointer;
-        background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/share_btn.png);
-        opacity: .9;
-        display: block
-    }
-
-    .vcp-share {
-        width: 3em;
-        height: 3em;
-        position: relative;
-        float: right;
-        z-index: 1001
-    }
-
-    .vcp-vertical-share-container {
-        width: auto;
-        height: auto;
-        position: absolute;
-        background: rgba(36, 36, 36, .8);
-        padding: .5em;
-        overflow: hidden;
-        display: none
-    }
-
-    @keyframes fadeOut {
-        0% {
-            opacity: 1
-        }
-        to {
-            opacity: 0
-        }
-    }
-
-    .fadeOut {
-        animation: fadeOut ease .8s;
-        animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards
-    }
-
-    @keyframes fadeIn {
-        0% {
-            opacity: 0
-        }
-        to {
-            opacity: 1
-        }
-    }
-
-    .fadeIn {
-        animation: fadeIn ease .8s;
-        animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards
-    }
-
-    .has-line {
-        width: 110px !important;
-        padding: 0 12px !important;
-        margin-left: -64px !important
-    }
-
-    .tablet .has-line {
-        margin-left: -84px !important
-    }
-
-    .has-line:after {
-        right: 56px !important
-    }
-
-    .tablet .has-line:after {
-        right: 36px !important
-    }
-
-    .vcp-vertical-switcher-top {
-        clear: both;
-        overflow: hidden;
-        border-bottom: 1px solid hsla(0, 0%, 100%, .1);
-        margin-top: 5px;
-        margin-bottom: 3px;
-        padding-bottom: 3px
-    }
-
-    .vcp-vertical-switcher-left {
-        float: left;
-        font-size: 12px;
-        color: #b2b2b2;
-        line-height: 26px;
-        width: 54px;
-        text-align: right
-    }
-
-    .vcp-vertical-switcher-right {
-        float: left;
-        width: 56px
-    }
-
-    .vcp-vertical-switcher-bottom {
-        clear: both;
-        padding-bottom: 5px;
-        overflow: hidden
-    }</style>
-    <style type="text/css">.vcp-statistics-panel {
-        display: none;
-        position: absolute;
-        width: 500px;
-        padding: 15px;
-        top: 50px;
-        left: 20px;
-        font-size: 12px;
-        background-color: rgba(0, 0, 0, .8);
-        color: #fff;
-        border-radius: 4px;
-        z-index: 9999
-    }
-
-    .vcp-statistics-panel.opened {
-        display: block
-    }
-
-    .vcp-statistics-close {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        top: 5px;
-        right: 10px;
-        line-height: 30px;
-        text-align: center;
-        cursor: pointer
-    }
-
-    .vcp-statistics-info span {
-        display: inline-block;
-        line-height: 1.5
-    }
-
-    .vcp-statistics-info .info-title {
-        width: 110px;
-        text-align: right;
-        margin-right: 10px
-    }</style>
-    <style type="text/css">.vcp-context-menu {
-        display: none;
-        position: absolute;
-        width: 234px;
-        padding: 10px 0;
-        top: 0;
-        left: 0;
-        z-index: 9999;
-        color: #bbb;
-        background: rgba(30, 30, 32, .9);
-        font: 12px/1.5 PingFangSC-Regular, Tahoma, Microsoft Yahei, sans-serif
-    }
-
-    .vcp-context-menu.opened {
-        display: block
-    }
-
-    .context-menu-item {
-        max-width: 100%;
-        height: 34px;
-        padding-left: 20px;
-        line-height: 34px;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        cursor: pointer
-    }</style>
-    <script charset="utf-8" src="//egame.gtimg.cn/club/pgg_pcweb/v2/2571c728e47e2dbcbcd3.js?max_age=31536000"></script>
-    <script type="text/javascript" src="https://ssl.captcha.qq.com/tencent-kepler.js?appId=2033367612"></script>
-    <script charset="utf-8" src="//egame.gtimg.cn/club/pgg_pcweb/v2/f7a2edd9187228f9abd9.js?max_age=31536000"></script>
-    <link rel="stylesheet" type="text/css"
-          href="//egame.gtimg.cn/club/pgg_pcweb/v2/b5f04a1e19ea54a7b439.css?max_age=31536000">
-    <script charset="utf-8" src="//egame.gtimg.cn/club/pgg_pcweb/v2/23e634b5e944898fd26e.js?max_age=31536000"></script>
-    <script charset="utf-8" src="//egame.gtimg.cn/club/pgg_pcweb/v2/67f259613a34de371a2e.js?max_age=31536000"></script>
-    <link rel="stylesheet" type="text/css"
-          href="//egame.gtimg.cn/club/pgg_pcweb/v2/5d7471a87dcd9480d057.css?max_age=31536000">
-    <script charset="utf-8" src="//egame.gtimg.cn/club/pgg_pcweb/v2/364af459c2a124fb449c.js?max_age=31536000"></script>
-    <link rel="stylesheet" type="text/css"
-          href="//egame.gtimg.cn/club/pgg_pcweb/v2/6a3eee448ec4711f57a5.css?max_age=31536000">
-    <script charset="utf-8" src="//egame.gtimg.cn/club/pgg_pcweb/v2/0ad29e4de5260ae6272a.js?max_age=31536000"></script>
-    <script type="text/javascript"
-            src="//imgcache.gtimg.cn/ACT/vip_act/act_data/107776.json.js?_r=1565836095927"></script>
 </head>
-<body>
-
-<div id="__nuxt"><!---->
-    <div id="__layout">
-        <div>
-            <ul class="index-mod-recommend" data-v-bfd184bc="" data-v-7cccbb66="">
-                <li data-v-bfd184bc="">
-                    <div class="index-title" data-v-cba02c92=""><h4 data-v-cba02c92=""><a
-                            href="/livelist?layoutid=2000000133" target="_blank" data-v-cba02c92="" class=""><span
-                            class="icon-game icon-01jdqs" data-v-cba02c92=""></span>绝地求生
-                    </a></h4> <!----> <a href="/livelist?layoutid=2000000133" target="_blank" class="row"
-                                         data-v-cba02c92="">
-                        全部<i class="icon-row" data-v-cba02c92=""></i></a></div>
-                    <ul>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/202232807" target="_blank"
-                                                                         title="避雷针小鬼 水友偷我家网线" data-v-19da4638=""
-                                                                         class="" aria-label="避雷针小鬼 水友偷我家网线"><!---->
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!---->
-                                        <div class="gui-tag-star gui-tag-interactive" data-v-226a14a2=""><img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAAAXNSR0IArs4c6QAAAdxJREFUOBGdlc8rhEEYx/fdRFFabFsOagvlsn7kJAclF04uHFz9BQ64KTfc5SA5KknJjZKSFjk4UOQkxcGP4iA/Vq/P8+p9m3d2ZtZ66tvM8/1+n2dmZ2dnE4kywvd9rwx7Imkz0ygNpsEueAYFvO+M52AF9IG/LYZxFkiTI7AE3kCpOMHQYdtgwGOYLNXFoX+hjRkXQOgB347iv0hSP6ovIGc+BKxnrxdYcqlfZoGsqgu5B3yV1OZ58nuNM6W1kBssMANaIwOJ3AhTXIsJIQXWgdyWLTAFboAtnhBSwQJMHi0u2XUUeKKrx1xulytGkqiNVDdEHeKT2HF4nqceX3/cWpS1y5lni+hf4phhwqSxoWr4XpOmcBk5z27DZzuAq1CMRVP0TUNdSBWYDEjzppBRxjxz2Z010OuA6bs6hM9FhSS3QI8XiDWQjozKBF6+r0ugx7hiC67aou5Q8tXQDJcD+0Aerzugh1zV+tAfjBAtwPYEPKBVgRpwBVwRbURfYN5RdYp24dBFkhc1E2saJgiVQG7Jf+KTosGwl3HEIB/d9hTYFn1FGDY21EmMcgu2bZ00foe8We/hzCnoBB9aI0nlXstvYAF0OZu4RIrbwBw4A3Ln5a8verhctaH2A4IG+8hNSiNeAAAAAElFTkSuQmCC"
-                                                alt="" data-v-226a14a2=""><span title="平台小时榜NO.25"
-                                                                                data-v-226a14a2="">
-    平台小时榜NO.25
-  </span></div> <!----> <!----> <!----> <!----></div>
-                                </div>
-                                <img src="//shp.qpic.cn/pggamehead/0/1545996217_293_750x422/374" alt="避雷针小鬼 水友偷我家网线"
-                                     class="zb-img" data-v-02aee318="" data-v-19da4638=""> <span class="mask"
-                                                                                                 data-v-19da4638=""><i
-                                        class="icon-play" data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    水友偷我家网线
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/457946610" target="_blank"
-                                                                         title="宇宙无敌小咕噜 么么哒~~~~~" data-v-19da4638=""
-                                                                         class="" aria-label="宇宙无敌小咕噜 么么哒~~~~~">
-                            <!---->
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!---->
-                                        <div class="gui-tag-star gui-tag-interactive" data-v-226a14a2=""><img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAAAXNSR0IArs4c6QAAAdxJREFUOBGdlc8rhEEYx/fdRFFabFsOagvlsn7kJAclF04uHFz9BQ64KTfc5SA5KknJjZKSFjk4UOQkxcGP4iA/Vq/P8+p9m3d2ZtZ66tvM8/1+n2dmZ2dnE4kywvd9rwx7Imkz0ygNpsEueAYFvO+M52AF9IG/LYZxFkiTI7AE3kCpOMHQYdtgwGOYLNXFoX+hjRkXQOgB347iv0hSP6ovIGc+BKxnrxdYcqlfZoGsqgu5B3yV1OZ58nuNM6W1kBssMANaIwOJ3AhTXIsJIQXWgdyWLTAFboAtnhBSwQJMHi0u2XUUeKKrx1xulytGkqiNVDdEHeKT2HF4nqceX3/cWpS1y5lni+hf4phhwqSxoWr4XpOmcBk5z27DZzuAq1CMRVP0TUNdSBWYDEjzppBRxjxz2Z010OuA6bs6hM9FhSS3QI8XiDWQjozKBF6+r0ugx7hiC67aou5Q8tXQDJcD+0Aerzugh1zV+tAfjBAtwPYEPKBVgRpwBVwRbURfYN5RdYp24dBFkhc1E2saJgiVQG7Jf+KTosGwl3HEIB/d9hTYFn1FGDY21EmMcgu2bZ00foe8We/hzCnoBB9aI0nlXstvYAF0OZu4RIrbwBw4A3Ln5a8verhctaH2A4IG+8hNSiNeAAAAAElFTkSuQmCC"
-                                                alt="" data-v-226a14a2=""><span title="平台小时榜NO.28"
-                                                                                data-v-226a14a2="">
-    平台小时榜NO.28
-  </span></div> <!----> <!----> <!----> <!----></div>
-                                </div>
-                                <img src="//livescreenshot-10063587.file.myqcloud.com/2019-08-15/3954_457946610-screenshot-10-28-00-374x210.jpg"
-                                     alt="宇宙无敌小咕噜 么么哒~~~~~" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    么么哒~~~~~
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/380989722" target="_blank"
-                                                                         title="小七Rush 战神小七即将下线！" data-v-19da4638=""
-                                                                         class="" aria-label="小七Rush 战神小七即将下线！">
-                            <div class="gui-tag-blue" data-v-01012bca="" data-v-19da4638="">蓝光8M</div>
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!----> <!----> <!----> <!----> <!----><!----></div>
-                                </div>
-                                <img src="//p.qpic.cn/comic/ajNVdqHZLLAGRhNr3yHSfJR9shOTJTZz4aa0Aebb7RVEHmAY10pftuSl9b8XKSGw/950?w=750&amp;h=422"
-                                     alt="小七Rush 战神小七即将下线！" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    战神小七即将下线！
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/15783660" target="_blank"
-                                                                         title="EL-苏柔boy 亚服顶尖单排杀戮时间"
-                                                                         data-v-19da4638="" class=""
-                                                                         aria-label="EL-苏柔boy 亚服顶尖单排杀戮时间"><!---->
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!---->
-                                        <div class="gui-tag-star gui-tag-interactive" data-v-226a14a2=""><img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAAAXNSR0IArs4c6QAAAdxJREFUOBGdlc8rhEEYx/fdRFFabFsOagvlsn7kJAclF04uHFz9BQ64KTfc5SA5KknJjZKSFjk4UOQkxcGP4iA/Vq/P8+p9m3d2ZtZ66tvM8/1+n2dmZ2dnE4kywvd9rwx7Imkz0ygNpsEueAYFvO+M52AF9IG/LYZxFkiTI7AE3kCpOMHQYdtgwGOYLNXFoX+hjRkXQOgB347iv0hSP6ovIGc+BKxnrxdYcqlfZoGsqgu5B3yV1OZ58nuNM6W1kBssMANaIwOJ3AhTXIsJIQXWgdyWLTAFboAtnhBSwQJMHi0u2XUUeKKrx1xulytGkqiNVDdEHeKT2HF4nqceX3/cWpS1y5lni+hf4phhwqSxoWr4XpOmcBk5z27DZzuAq1CMRVP0TUNdSBWYDEjzppBRxjxz2Z010OuA6bs6hM9FhSS3QI8XiDWQjozKBF6+r0ugx7hiC67aou5Q8tXQDJcD+0Aerzugh1zV+tAfjBAtwPYEPKBVgRpwBVwRbURfYN5RdYp24dBFkhc1E2saJgiVQG7Jf+KTosGwl3HEIB/d9hTYFn1FGDY21EmMcgu2bZ00foe8We/hzCnoBB9aI0nlXstvYAF0OZu4RIrbwBw4A3Ln5a8verhctaH2A4IG+8hNSiNeAAAAAElFTkSuQmCC"
-                                                alt="" data-v-226a14a2=""><span title="专区小时榜NO.3"
-                                                                                data-v-226a14a2="">
-    专区小时榜NO.3
-  </span></div> <!----> <!----> <!----> <!----></div>
-                                </div>
-                                <img src="//shp.qpic.cn/pggamehead/0/1565167696_222_750x422/374"
-                                     alt="EL-苏柔boy 亚服顶尖单排杀戮时间" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    亚服顶尖单排杀戮时间
-                                </div>
-                            </div>
-                        </a></li>
+<body class="body">
+<nav class="navbar navbar-default head">
+    <div class="container-fluid ">
+        <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav topmemu">
+                <li><a href="#">写点评 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">你好，请登录</a></li>
+                <li class="active"><a href="#" class="register">免费注册</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true"
+                       aria-expanded="false">个人中心<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">demo</a></li>
+                        <li><a href="#">demo</a></li>
+                        <li><a href="#">demo</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">demo</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">demo</a></li>
                     </ul>
                 </li>
-                <li data-v-bfd184bc="">
-                    <div class="index-title" data-v-cba02c92=""><h4 data-v-cba02c92=""><a
-                            href="/livelist?layoutid=2000000140" target="_blank" data-v-cba02c92="" class=""><span
-                            class="icon-game icon-09zjdj" data-v-cba02c92=""></span>主机单机
-                    </a></h4> <!----> <a href="/livelist?layoutid=2000000140" target="_blank" class="row"
-                                         data-v-cba02c92="">
-                        全部<i class="icon-row" data-v-cba02c92=""></i></a></div>
-                    <ul>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/354639990" target="_blank"
-                                                                         title="MT-天池 天池：天黑黑 探灵走起"
-                                                                         data-v-19da4638="" class=""
-                                                                         aria-label="MT-天池 天池：天黑黑 探灵走起">
-                            <div class="gui-tag-blue" data-v-01012bca="" data-v-19da4638="">蓝光8M</div>
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!----> <!----> <!----> <!----> <!----><!----></div>
-                                </div>
-                                <img src="//livescreenshot-10063587.file.myqcloud.com/2019-08-15/3954_354639990-screenshot-10-27-59-374x210.jpg"
-                                     alt="MT-天池 天池：天黑黑 探灵走起" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    天池：天黑黑 探灵走起
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/365090170" target="_blank"
-                                                                         title="MT-潇哥 流浪地球 北京地下城" data-v-19da4638=""
-                                                                         class="" aria-label="MT-潇哥 流浪地球 北京地下城">
-                            <!---->
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!----> <!---->
-                                        <div class="tag-standard gui-tag-interactive" data-v-41645020="">
-                                            午夜肝帝
-                                        </div> <!----> <!----> <!----></div>
-                                </div>
-                                <img src="//livescreenshot-10063587.file.myqcloud.com/2019-08-15/3954_365090170-screenshot-10-27-57-374x210.jpg"
-                                     alt="MT-潇哥 流浪地球 北京地下城" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    流浪地球 北京地下城
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/346982492" target="_blank"
-                                                                         title="企鹅电竞-最初 最初的游戏直播间" data-v-19da4638=""
-                                                                         class="" aria-label="企鹅电竞-最初 最初的游戏直播间">
-                            <div class="gui-tag-blue" data-v-01012bca="" data-v-19da4638="">蓝光8M</div>
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!----> <!----> <!----> <!----> <!----><!----></div>
-                                </div>
-                                <img src="//livescreenshot-10063587.file.myqcloud.com/2019-08-15/3954_346982492-screenshot-10-28-06-374x210.jpg"
-                                     alt="企鹅电竞-最初 最初的游戏直播间" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    最初的游戏直播间
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/62002297" target="_blank"
-                                                                         title="白三山 创世小玩家2开荒实况" data-v-19da4638=""
-                                                                         class="" aria-label="白三山 创世小玩家2开荒实况">
-                            <!---->
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!---->
-                                        <div class="gui-tag-star gui-tag-interactive" data-v-226a14a2=""><img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAAAXNSR0IArs4c6QAAAdxJREFUOBGdlc8rhEEYx/fdRFFabFsOagvlsn7kJAclF04uHFz9BQ64KTfc5SA5KknJjZKSFjk4UOQkxcGP4iA/Vq/P8+p9m3d2ZtZ66tvM8/1+n2dmZ2dnE4kywvd9rwx7Imkz0ygNpsEueAYFvO+M52AF9IG/LYZxFkiTI7AE3kCpOMHQYdtgwGOYLNXFoX+hjRkXQOgB347iv0hSP6ovIGc+BKxnrxdYcqlfZoGsqgu5B3yV1OZ58nuNM6W1kBssMANaIwOJ3AhTXIsJIQXWgdyWLTAFboAtnhBSwQJMHi0u2XUUeKKrx1xulytGkqiNVDdEHeKT2HF4nqceX3/cWpS1y5lni+hf4phhwqSxoWr4XpOmcBk5z27DZzuAq1CMRVP0TUNdSBWYDEjzppBRxjxz2Z010OuA6bs6hM9FhSS3QI8XiDWQjozKBF6+r0ugx7hiC67aou5Q8tXQDJcD+0Aerzugh1zV+tAfjBAtwPYEPKBVgRpwBVwRbURfYN5RdYp24dBFkhc1E2saJgiVQG7Jf+KTosGwl3HEIB/d9hTYFn1FGDY21EmMcgu2bZ00foe8We/hzCnoBB9aI0nlXstvYAF0OZu4RIrbwBw4A3Ln5a8verhctaH2A4IG+8hNSiNeAAAAAElFTkSuQmCC"
-                                                alt="" data-v-226a14a2=""><span title="专区小时榜主" data-v-226a14a2="">
-    专区小时榜主
-  </span></div> <!----> <!----> <!----> <!----></div>
-                                </div>
-                                <img src="//livescreenshot-10063587.file.myqcloud.com/2019-08-15/3954_62002297-screenshot-10-28-11-374x210.jpg"
-                                     alt="白三山 创世小玩家2开荒实况" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    创世小玩家2开荒实况
-                                </div>
-                            </div>
-                        </a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true"
+                       aria-expanded="false">商户服务<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">demo</a></li>
+                        <li><a href="#">demo</a></li>
+                        <li><a href="#">demo</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">demo</a></li>
                     </ul>
                 </li>
-                <li data-v-bfd184bc="">
-                    <div class="index-title" data-v-cba02c92=""><h4 data-v-cba02c92=""><a
-                            href="/livelist?layoutid=400000001573" target="_blank" data-v-cba02c92="" class=""><span
-                            class="icon-game icon-03yxlm" data-v-cba02c92=""></span>LOL云顶之弈
-                    </a></h4> <!----> <a href="/livelist?layoutid=400000001573" target="_blank" class="row"
-                                         data-v-cba02c92="">
-                        全部<i class="icon-row" data-v-cba02c92=""></i></a></div>
-                    <ul>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/490764427" target="_blank"
-                                                                         title="电一王者隔壁老王 云顶之弈王者教学"
-                                                                         data-v-19da4638="" class=""
-                                                                         aria-label="电一王者隔壁老王 云顶之弈王者教学"><!---->
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap">
-                                        <div class="tag-icon-wrap" data-v-42e35f1b=""><img
-                                                src="http://imgcache.gtimg.cn/ACT/svip_act/act_img/public/201811/m1542113453_cj.png"
-                                                alt="" class="icon icon-jc" data-v-42e35f1b=""> <!----> <!---->
-                                        </div>
-                                        <div class="gui-tag-star gui-tag-interactive" data-v-226a14a2=""><img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAAAXNSR0IArs4c6QAAAdxJREFUOBGdlc8rhEEYx/fdRFFabFsOagvlsn7kJAclF04uHFz9BQ64KTfc5SA5KknJjZKSFjk4UOQkxcGP4iA/Vq/P8+p9m3d2ZtZ66tvM8/1+n2dmZ2dnE4kywvd9rwx7Imkz0ygNpsEueAYFvO+M52AF9IG/LYZxFkiTI7AE3kCpOMHQYdtgwGOYLNXFoX+hjRkXQOgB347iv0hSP6ovIGc+BKxnrxdYcqlfZoGsqgu5B3yV1OZ58nuNM6W1kBssMANaIwOJ3AhTXIsJIQXWgdyWLTAFboAtnhBSwQJMHi0u2XUUeKKrx1xulytGkqiNVDdEHeKT2HF4nqceX3/cWpS1y5lni+hf4phhwqSxoWr4XpOmcBk5z27DZzuAq1CMRVP0TUNdSBWYDEjzppBRxjxz2Z010OuA6bs6hM9FhSS3QI8XiDWQjozKBF6+r0ugx7hiC67aou5Q8tXQDJcD+0Aerzugh1zV+tAfjBAtwPYEPKBVgRpwBVwRbURfYN5RdYp24dBFkhc1E2saJgiVQG7Jf+KTosGwl3HEIB/d9hTYFn1FGDY21EmMcgu2bZ00foe8We/hzCnoBB9aI0nlXstvYAF0OZu4RIrbwBw4A3Ln5a8verhctaH2A4IG+8hNSiNeAAAAAElFTkSuQmCC"
-                                                alt="" data-v-226a14a2=""><span title="专区小时榜NO.3"
-                                                                                data-v-226a14a2="">
-    专区小时榜NO.3
-  </span></div> <!----> <!----> <!----> <!----></div>
-                                </div>
-                                <img src="//p.qpic.cn/comic/ajNVdqHZLLCKtGJGx789P08frCtxoKjibsbQTnNXqJtlelYORxnsJRZP1DJFKJSqA/950?w=750&amp;h=422"
-                                     alt="电一王者隔壁老王 云顶之弈王者教学" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    云顶之弈王者教学
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/330151960" target="_blank"
-                                                                         title="EL-念绣 念绣：你女朋友正在挨打"
-                                                                         data-v-19da4638="" class=""
-                                                                         aria-label="EL-念绣 念绣：你女朋友正在挨打">
-                            <div class="gui-tag-blue" data-v-01012bca="" data-v-19da4638="">蓝光8M</div>
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!----> <!----> <!----> <!----> <!----><!----></div>
-                                </div>
-                                <img src="//livescreenshot-10063587.file.myqcloud.com/2019-08-15/3954_330151960-screenshot-10-28-04-374x210.jpg"
-                                     alt="EL-念绣 念绣：你女朋友正在挨打" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    念绣：你女朋友正在挨打
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/281447634" target="_blank"
-                                                                         title="凯战-大鸟冰鸟 我的冰鸟不会死死一次10俯卧撑！"
-                                                                         data-v-19da4638="" class=""
-                                                                         aria-label="凯战-大鸟冰鸟 我的冰鸟不会死死一次10俯卧撑！">
-                            <div class="gui-tag-blue" data-v-01012bca="" data-v-19da4638="">蓝光6M</div>
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!----> <!----> <!----> <!----> <!----><!----></div>
-                                </div>
-                                <img src="//shp.qpic.cn/pggamehead/0/1565491872_462_750x422/374"
-                                     alt="凯战-大鸟冰鸟 我的冰鸟不会死死一次10俯卧撑！" class="zb-img" data-v-02aee318=""
-                                     data-v-19da4638=""> <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                                                  data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    我的冰鸟不会死死一次10俯卧撑！
-                                </div>
-                            </div>
-                        </a></li>
-                        <li class="recommend-unit" data-v-19da4638=""><a href="/132464099" target="_blank"
-                                                                         title="桃筱雨. 陪伴是最长情的告白" data-v-19da4638=""
-                                                                         class="" aria-label="桃筱雨. 陪伴是最长情的告白">
-                            <!---->
-                            <div class="content" data-v-19da4638=""><!----> <!---->
-                                <div data-v-19da4638=""><!---->
-                                    <div class="tag-right-wrap"><!---->
-                                        <div class="gui-tag-star gui-tag-interactive" data-v-226a14a2=""><img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAAAXNSR0IArs4c6QAAAdxJREFUOBGdlc8rhEEYx/fdRFFabFsOagvlsn7kJAclF04uHFz9BQ64KTfc5SA5KknJjZKSFjk4UOQkxcGP4iA/Vq/P8+p9m3d2ZtZ66tvM8/1+n2dmZ2dnE4kywvd9rwx7Imkz0ygNpsEueAYFvO+M52AF9IG/LYZxFkiTI7AE3kCpOMHQYdtgwGOYLNXFoX+hjRkXQOgB347iv0hSP6ovIGc+BKxnrxdYcqlfZoGsqgu5B3yV1OZ58nuNM6W1kBssMANaIwOJ3AhTXIsJIQXWgdyWLTAFboAtnhBSwQJMHi0u2XUUeKKrx1xulytGkqiNVDdEHeKT2HF4nqceX3/cWpS1y5lni+hf4phhwqSxoWr4XpOmcBk5z27DZzuAq1CMRVP0TUNdSBWYDEjzppBRxjxz2Z010OuA6bs6hM9FhSS3QI8XiDWQjozKBF6+r0ugx7hiC67aou5Q8tXQDJcD+0Aerzugh1zV+tAfjBAtwPYEPKBVgRpwBVwRbURfYN5RdYp24dBFkhc1E2saJgiVQG7Jf+KTosGwl3HEIB/d9hTYFn1FGDY21EmMcgu2bZ00foe8We/hzCnoBB9aI0nlXstvYAF0OZu4RIrbwBw4A3Ln5a8verhctaH2A4IG+8hNSiNeAAAAAElFTkSuQmCC"
-                                                alt="" data-v-226a14a2=""><span title="专区小时榜主" data-v-226a14a2="">
-    专区小时榜主
-  </span></div> <!----> <!----> <!----> <!----></div>
-                                </div>
-                                <img src="//livescreenshot-10063587.file.myqcloud.com/2019-08-15/3954_132464099-screenshot-10-28-00-374x210.jpg"
-                                     alt="桃筱雨. 陪伴是最长情的告白" class="zb-img" data-v-02aee318="" data-v-19da4638="">
-                                <span class="mask" data-v-19da4638=""><i class="icon-play"
-                                                                         data-v-19da4638=""></i></span>
-                                <div class="info-anchor" data-v-19da4638="">
-                                    陪伴是最长情的告白
-                                </div>
-                            </div>
-                        </a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true"
+                       aria-expanded="false">帮助中心<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">demo</a></li>
+                        <li><a href="#">demo</a></li>
+                        <li><a href="#">demo</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">demo</a></li>
                     </ul>
                 </li>
-            </ul>
-            <ul data-v-7cccbb66="" class="index-mod-game">
-                <li class="fl">
-                    <div data-v-cba02c92="" class="index-title"><h4 data-v-cba02c92=""><a data-v-cba02c92=""
-                                                                                          href="/gamelist" class=""
-                                                                                          target="_blank"><span
-                            data-v-cba02c92="" class="icon-game icon-04yxfl"></span>游戏分类
-                    </a></h4> <!----> <a data-v-cba02c92="" href="/gamelist" class="row" target="_blank">
-                        全部<i data-v-cba02c92="" class="icon-row"></i></a></div>
-                    <div class="content">
-                        <ul class="list-game">
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=2000000133" class=""
-                                                              target="_blank" title="绝地求生" aria-label="绝地求生">
-                                    <div alt="绝地求生" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1499135945_751_248x320/0?new=1.0&amp;w=248&amp;h=320&amp;color=cac7c3&quot;);"></div>
-                                    <p>
-                                        绝地求生
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=2000000140" class=""
-                                                              target="_blank" title="主机单机" aria-label="主机单机">
-                                    <div alt="主机单机" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1523624561_200_248x320/0?new=1.0&amp;w=248&amp;h=320&quot;);"></div>
-                                    <p>
-                                        主机单机
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=400000001573" class=""
-                                                              target="_blank" title="LOL云顶之弈" aria-label="LOL云顶之弈">
-                                    <div alt="LOL云顶之弈" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1561014125_416_248x320/0?new=1.0&amp;w=248&amp;h=320&quot;);"></div>
-                                    <p>
-                                        LOL云顶之弈
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=1104466820" class=""
-                                                              target="_blank" title="王者荣耀" aria-label="王者荣耀">
-                                    <div alt="王者荣耀" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1486956245_63_248x320/0?new=1.0&amp;w=248&amp;h=320&amp;color=cfc2b8&quot;);"></div>
-                                    <p>
-                                        王者荣耀
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=40000001472" class=""
-                                                              target="_blank" title="娱乐" aria-label="娱乐">
-                                    <div alt="娱乐" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1542363603_609_248x320/0?new=1.0&amp;w=248&amp;h=320&quot;);"></div>
-                                    <p>
-                                        娱乐
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=lol" class="" target="_blank"
-                                                              title="英雄联盟" aria-label="英雄联盟">
-                                    <div alt="英雄联盟" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1486976622_4_248x320/0?new=1.0&amp;w=248&amp;h=320&amp;color=ccc1b8&quot;);"></div>
-                                    <p>
-                                        英雄联盟
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=40000001470" class=""
-                                                              target="_blank" title="户外美食" aria-label="户外美食">
-                                    <div alt="户外美食" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1555309998_79_248x320/0?new=1.0&amp;w=248&amp;h=320&quot;);"></div>
-                                    <p>
-                                        户外美食
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=1106448348" class=""
-                                                              target="_blank" title="王牌战士" aria-label="王牌战士">
-                                    <div alt="王牌战士" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1536573529_946_248x320/0?new=1.0&amp;w=248&amp;h=320&quot;);"></div>
-                                    <p>
-                                        王牌战士
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=1106467070" class=""
-                                                              target="_blank" title="和平精英" aria-label="和平精英">
-                                    <div alt="和平精英" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1557254443_759_248x320/0?new=1.0&amp;w=248&amp;h=320&quot;);"></div>
-                                    <p>
-                                        和平精英
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=40000001435" class=""
-                                                              target="_blank" title="刀塔自走棋" aria-label="刀塔自走棋">
-                                    <div alt="刀塔自走棋" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1533714011_967_248x320/0?new=1.0&amp;w=248&amp;h=320&quot;);"></div>
-                                    <p>
-                                        刀塔自走棋
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=1104922185" class=""
-                                                              target="_blank" title="QQ飞车手游" aria-label="QQ飞车手游">
-                                    <div alt="QQ飞车手游" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1517978240_651_148x208/0?new=1.0&amp;w=148&amp;h=208&quot;);"></div>
-                                    <p>
-                                        QQ飞车手游
-                                    </p></a></div>
-                            </li>
-                            <li>
-                                <div class="gui-list-game"><a href="/livelist?layoutid=Cf" class="" target="_blank"
-                                                              title="穿越火线" aria-label="穿越火线">
-                                    <div alt="穿越火线" class="img"
-                                         style="background-image: url(&quot;http://shp.qpic.cn/pggamehead/0/1517978275_738_148x208/0?new=1.0&amp;w=148&amp;h=208&quot;);"></div>
-                                    <p>
-                                        穿越火线
-                                    </p></a></div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="fr">
-                    <div data-v-cba02c92="" class="index-title"><h4 data-v-cba02c92=""><a data-v-cba02c92=""
-                                                                                          href="/"
-                                                                                          class="nuxt-link-exact-active nuxt-link-active"
-                                                                                          target="_blank"><span
-                            data-v-cba02c92="" class="icon-game icon-05rmjm"></span>热门节目
-                    </a></h4> <!----> <!----></div>
-                    <div class="content"><i class="line"></i>
-                        <ul class="mod-show">
-                            <li class="active">
-                                <div class="img-box"><img data-v-02aee318=""
-                                                          src="//shp.qpic.cn/pggamehead/0/1563954500_407_750x422/374?new=1.0&amp;w=750&amp;h=422"
-                                                          alt="ICC英雄联盟全球高校冠军杯"> <!---->
-                                    <button type="button" class="btn-primary">
-                                        回放
-                                    </button> <!----> <!----></div>
-                                <div class="info-title"><span class="circle"><i></i></span> <span class="time"><!---->
-      07月28日 10:00
-    </span> <span class="showname"><!---->
-      ICC英雄联盟全球高校冠军杯
-    </span> <!----> <!---->
-                                    <div class="info-desc"><span class="number">
-        6次播放
-      </span></div> <!----></div> <!----></li>
-                            <li class="">
-                                <div class="img-box"><img data-v-02aee318=""
-                                                          src="//shp.qpic.cn/pggamehead/0/1563514074_920_750x422/374?new=1.0&amp;w=750&amp;h=422"
-                                                          alt="隔壁老王综艺首秀，《加个好友吧》~"> <!---->
-                                    <button type="button" class="btn-primary">
-                                        回放
-                                    </button> <!----> <!----></div>
-                                <div class="info-title"><span class="circle"><i></i></span> <span class="time"><!---->
-      07月20日 14:00
-    </span> <span class="showname"><!---->
-      隔壁老王综艺首秀，《加个好友吧》~
-    </span> <!----> <!---->
-                                    <div class="info-desc"><span class="number">
-        263次播放
-      </span></div> <!----></div> <!----></li>
-                            <li class="">
-                                <div class="img-box"><img data-v-02aee318=""
-                                                          src="//shp.qpic.cn/pggamehead/0/1565767276_823_750x422/374?new=1.0&amp;w=750&amp;h=422"
-                                                          alt="LPL夏季赛 EDG vs SN"> <!---->
-                                    <button type="button" class="btn-primary">
-                                        回放
-                                    </button> <!----> <!----></div>
-                                <div class="info-title"><span class="circle"><i></i></span> <span class="time"><!---->
-      08月14日 17:00
-    </span> <span class="showname"><!---->
-      LPL夏季赛 EDG vs SN
-    </span> <!----> <!---->
-                                    <div class="info-desc"><span class="number">
-        236次播放
-      </span></div> <!----></div> <!----></li>
-                            <li class="">
-                                <div class="img-box"><img data-v-02aee318=""
-                                                          src="//shp.qpic.cn/pggamehead/0/1562137911_524_750x422/374?new=1.0&amp;w=750&amp;h=422"
-                                                          alt="若风夫妇“爱情保卫战”"> <!---->
-                                    <button type="button" class="btn-primary">
-                                        回放
-                                    </button> <!----> <!----></div>
-                                <div class="info-title"><span class="circle"><i></i></span> <span class="time"><!---->
-      07月03日 18:00
-    </span> <span class="showname"><!---->
-      若风夫妇“爱情保卫战”
-    </span> <!----> <!---->
-                                    <div class="info-desc"><span class="number">
-        3064次播放
-      </span></div> <!----></div> <!----></li>
-                        </ul>
-                    </div>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true"
+                       aria-expanded="false">网站导航<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">占位</a></li>
+                        <li><a href="#">占位</a></li>
+                        <li><a href="#">占位</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">占位</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
-        <script nonce="csp-script-inline">
-            window._timePoint[3] = Date.now();
-        </script>
+    </div>
+</nav>
+<div class="top">
+    <div class="logo">
+        <img src="img/logo.png" alt="logo">
+    </div>
+    <div class="search">
+        <div class="location">
+            <li class="dropdown" style="list-style:none;">
+                <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false"><img
+                        src="img/location.svg" alt="location">苏州</a>
+                <ul class="dropdown-menu">
+                    <p>&nbsp;&nbsp;<b>国内城市</b></p>
+                    <li><a href="#">苏州</a></li>
+                    <li><a href="#">上海</a></li>
+                    <li><a href="#">杭州</a></li>
+                    <p>&nbsp;&nbsp;<b>国外城市</b></p>
+                    <li><a href="#">伦敦</a></li>
+                    <li><a href="#">巴黎</a></li>
+                    <li><a href="#">纽约</a></li>
+                </ul>
+            </li>
+        </div>
+        <form class="form-inline search-form">
+            <div class="form-group">
+                <input type="text" class="form-control find-text" placeholder="请输入搜索内容">
+                <button type="submit" class="btn btn-default btn-color">搜索</button>
+                <label class="hot-search">热门搜索：<a href="">demo</a>&nbsp;<a href="">demo</a></label>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+<div class="index-body">
+    <div class="index-left">
+        <div class="all-clz-box">
+            <p class="left-title">全部分类</p>
+            <ul class="all-clz">
+                <li class="first"><a href="#">火锅</a></li>
+                <li><a href="#">demo</a></li>
+                <li><a href="#">demo</a></li>
+                <ul>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                </ul>
+            </ul>
+            <ul class="all-clz">
+                <li class="first"><a href="#">烧烤</a></li>
+                <li><a href="#">demo</a></li>
+                <li><a href="#">demo</a></li>
+                <ul>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                </ul>
+            </ul>
+            <ul class="all-clz">
+                <li class="first"><a href="#">自助</a></li>
+                <li><a href="#">demo</a></li>
+                <li><a href="#">demo</a></li>
+                <ul>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                </ul>
+            </ul>
+            <ul class="all-clz">
+                <li class="first"><a href="#">小吃</a></li>
+                <li><a href="#">demo</a></li>
+                <li><a href="#">demo</a></li>
+                <ul>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                </ul>
+            </ul>
+            <ul class="all-clz">
+                <li class="first"><a href="#">西餐</a></li>
+                <li><a href="#">demo</a></li>
+                <li><a href="#">demo</a></li>
+                <ul>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                </ul>
+            </ul>
+            <ul class="all-clz">
+                <li class="first"><a href="#">家常</a></li>
+                <li><a href="#">demo</a></li>
+                <li><a href="#">demo</a></li>
+                <ul>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                </ul>
+            </ul>
+            <ul class="all-clz">
+                <li class="first"><a href="#">甜点</a></li>
+                <li><a href="#">demo</a></li>
+                <li><a href="#">demo</a></li>
+                <ul>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">demo</a></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+    <div class="index-center">
+        <div class="container "  id="img-show">
+            <div class="row " id="img-show2">
+                <div class="col-md-8" id="img-show3">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000"><!--轮播时间-->
+                        <!--图片容器-->
+                        <div class="carousel-inner img-box">
+                            <div class="item active"><img src="img/1.jpg" alt="..."/></div>
+                            <div class="item"><img src="img/2.jpg" alt="..."/></div>
+                            <div class="item"><img src="img/3.jpg" alt="..."/></div>
+                            <div class="item"><img src="img/4.jpg" alt="..."/></div>
+                        </div>
+                        <!--圆圈指示符-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <!--左右控制按钮-->
+                        <a href="#myCarousel" class="left carousel-control " data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left img-btn"></span>
+                        </a>
+                        <a href="#myCarousel" class="right carousel-control " data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right img-btn"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery-3.4.1.js"></script>
+        <div class="center-left">
+            <table>
+                <tr>
+                    <td colspan="3"><a href="#"><img src="img/fire.svg" alt="">热门分类</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="center-center">
+            <table>
+                <tr>
+                    <td colspan="3"><a href="#"><img src="img/store.svg" alt="">热门商家</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="center-right">
+            <table>
+                <tr>
+                    <td colspan="3"><a href="#"><img src="img/subway.svg" alt="">地铁线</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="index-right">
+        <div class="userinfo">
+            <div class="user-pic"><img src="img/userpic.svg" alt=""></div>
+            <div class="hello-user">
+                <span class="hi">Hi，</span>
+                <span class="hello">晚上好</span>
+            </div>
+            <div class="use-day">登录美食点评，发现更多美食</div>
+            <div class="user-opt">
+                    <a href="#" class="opt-btn login">登录</a>
+                    <a href="#" class="opt-btn regsiter">注册</a>
+            </div>
+        </div>
     </div>
 </div>
-</div>
-<script>window.__NUXT__ = (function (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, _, $, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, as, at, au, av, aw, ax, ay, az, aA, aB, aC, aD, aE, aF, aG, aH, aI, aJ, aK, aL, aM, aN, aO, aP, aQ, aR, aS, aT, aU, aV, aW, aX, aY, aZ, a_, a$, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, by, bz, bA, bB, bC, bD, bE, bF, bG, bH, bI, bJ, bK, bL, bM, bN, bO, bP, bQ, bR, bS) {
-    return {
-        layout: "default", data: [{}], error: bL, state: {
-            errors: {},
-            cgiMode: "production",
-            navbarShowBg: f,
-            sysTime: 1565836093631,
-            cpuUsed: aH,
-            act: {actUrl: b},
-            "activity-list": {isEnd: g, list: []},
-            "ad-info": {adInfo: {}},
-            ad: {adSideInfo: [], uniPendant: []},
-            album: {albums: [], videos: [{}, {}, {}, {}, {}, {}], isEnd: f, totalNum: a},
-            "anchor-info": {
-                anchorInfo: {},
-                guardianRank: {},
-                giftRank: {},
-                guardianStatus: {},
-                guardianShoppingList: {},
-                nobelRank: {},
-                giftBagInfo: {}
-            },
-            background: {
-                bgInfo: {
-                    type: g,
-                    imgUrl: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565783978_798_1980x725\u002F0?new=1.0&w=1980&h=725",
-                    jumpUrl: "https:\u002F\u002Fegame.qq.com\u002F721101518",
-                    appid: as
-                }, liveRoomBg: bL, liveRoomAd: [], bannerAd: {}
-            },
-            banned: {roles: []},
-            barrage: {
-                barrageConfig: {},
-                lastTm: a,
-                barrageList: [],
-                playPeriod: g,
-                vodLastTm: a,
-                vodPlayPeriod: C,
-                showBarrage: f,
-                barrageColors: [],
-                socketIsOpen: e
-            },
-            "business-widget": {
-                widgetConfig: {},
-                businessWidgetList: [],
-                gameAdWidgetList: [],
-                widgetIsShow: e,
-                gameWidgetIsShow: e
-            },
-            "cgi-config": {},
-            "clarity-limit": {clarityLimit: C},
-            "diamond-treasure": {
-                luckyType: "diamond",
-                diamond: {
-                    prizeList: [],
-                    luckyValue: a,
-                    highValueList: [],
-                    rankList: {"1": {}, "2": {}},
-                    cardCoupon: a,
-                    luckyContent: b
-                },
-                worth: {
-                    prizeList: [],
-                    luckyValue: a,
-                    highValueList: [],
-                    rankList: {"1": {}, "2": {}},
-                    cardCoupon: a,
-                    luckyContent: b
-                }
-            },
-            "display-mode": {
-                isVoiceRoomMode: e,
-                padMode: e,
-                isQgamePad: e,
-                qgamePadVersion: al,
-                isPadReview: e,
-                filterLabels: [ak],
-                filterTags: ["星战", "抽奖", "pk", "PK", "竞猜", "车队", "发车", "竞价"],
-                webViewNums: g
-            },
-            download: {
-                app: {},
-                ipad: {},
-                mobileHelper: {},
-                pcHelper: {},
-                pcV2Helper: {},
-                pcVersionLog: {},
-                pcV2VersionLog: {},
-                isShowVersionLog: e,
-                versionLogType: "pc"
-            },
-            follow: {inlineList: [], offlineList: [], recommendList: [], followCount: a},
-            "game-list": {gameList: []},
-            game: {categoryList: [], liveList: [], bannerList: [], tagList: [], isGetOver: e, heroList: []},
-            gift: {
-                giftList: [],
-                fansGuardianList: [],
-                gifts: {},
-                backPackBalance: [],
-                vodGiftList: [],
-                allGiftList: [],
-                luxuryGiftList: [],
-                firstRecharge: {},
-                guardianStatus: {}
-            },
-            "global-config": {globalConfig: {}},
-            guess: {questionList: [], guessAnchors: [], betCoins: []},
-            help: {menuList: [], detail: {}},
-            interact: {interactList: []},
-            "live-home-page": {
-                bannerList: [{
-                    videoInfo: {
-                        provider: i,
-                        url: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565774317_321_750x400\u002F0?new=1.0&w=750&h=400",
-                        appid: aj,
-                        anchorId: aw,
-                        streamInfos: [{
-                            desc: c,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_128699636.flv?bizid=3954&txSecret=71ce37277dc1199952b9ddc7f305e1f0&txTime=5d5de946",
-                            bitrate: a,
-                            levelType: y
-                        }, {
-                            desc: ai,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_128699636_3000.flv?bizid=3954&txSecret=b61aaadb810372b12eb4b90222bd9359&txTime=5d5de946",
-                            bitrate: ah,
-                            levelType: C
-                        }, {
-                            desc: B,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_128699636_1500.flv?bizid=3954&txSecret=4a3e95eecd7cf8e770c0069e7826c10b&txTime=5d5de946",
-                            bitrate: A,
-                            levelType: i
-                        }, {
-                            desc: U,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_128699636_900.flv?bizid=3954&txSecret=65a1cff44cc2e3b5deac455186e62552&txTime=5d5de946",
-                            bitrate: D,
-                            levelType: g
-                        }],
-                        channelId: b,
-                        vid: "128699636_1565830854",
-                        vAttr: {source: z}
-                    }, profileInfo: {isLive: g}, anchorId: aw, appid: aj, title: "狮子喵", bannerId: "9503"
-                }, {
-                    videoInfo: {
-                        provider: i,
-                        url: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565518655_861_750x400\u002F0?new=1.0&w=750&h=400",
-                        appid: aO,
-                        anchorId: bd,
-                        streamInfos: [{
-                            desc: c,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_61280676.flv?bizid=3954&txSecret=8fcff390d897968b927794e0f01cb371&txTime=5d5df21b",
-                            bitrate: a,
-                            levelType: y
-                        }, {
-                            desc: B,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_61280676_1500.flv?bizid=3954&txSecret=bffbf9706956486218134929074ecf61&txTime=5d5df21b",
-                            bitrate: A,
-                            levelType: i
-                        }],
-                        channelId: b,
-                        vid: "61280676_1565833113",
-                        vAttr: {source: z}
-                    }, profileInfo: {isLive: g}, anchorId: bd, appid: aO, title: "小咔", bannerId: "9400"
-                }, {
-                    videoInfo: {
-                        provider: i,
-                        url: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565599848_917_750x400\u002F0?new=1.0&w=750&h=400",
-                        appid: aa,
-                        anchorId: bM,
-                        streamInfos: [{
-                            desc: c,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_404621125.flv?bizid=3954&txSecret=67819fe13eba9e1f6a90590c18c7cff6&txTime=5d5df7c1",
-                            bitrate: a,
-                            levelType: y
-                        }, {
-                            desc: ai,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_404621125_3000.flv?bizid=3954&txSecret=086b22e681f74f812297a6c3302f002f&txTime=5d5df7c1",
-                            bitrate: ah,
-                            levelType: C
-                        }, {
-                            desc: B,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_404621125_1500.flv?bizid=3954&txSecret=77dc6b85cf3c727ca6d701687eaf50ae&txTime=5d5df7c1",
-                            bitrate: A,
-                            levelType: i
-                        }, {
-                            desc: U,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_404621125_900.flv?bizid=3954&txSecret=921399d922eb6cdaf862fc03817a4ad8&txTime=5d5df7c1",
-                            bitrate: D,
-                            levelType: g
-                        }],
-                        channelId: b,
-                        vid: "404621125_1565834560",
-                        vAttr: {source: z}
-                    }, profileInfo: {isLive: g}, anchorId: bM, appid: aa, title: "Wuli星", bannerId: "9436"
-                }, {
-                    videoInfo: {
-                        provider: i,
-                        url: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565441326_397_750x400\u002F0?new=1.0&w=750&h=400",
-                        appid: J,
-                        anchorId: af,
-                        streamInfos: [{
-                            desc: c,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_202232807.flv?bizid=3954&txSecret=1799254008dcfa27c35451f3663a5808&txTime=5d5dea2a",
-                            bitrate: a,
-                            levelType: y
-                        }, {
-                            desc: ai,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_202232807_3000.flv?bizid=3954&txSecret=d169d3e57aaf0a95a827b5b7a1479c4e&txTime=5d5dea2a",
-                            bitrate: ah,
-                            levelType: C
-                        }, {
-                            desc: B,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_202232807_1500.flv?bizid=3954&txSecret=32861b1f458558f21b8d8d853e67287b&txTime=5d5dea2a",
-                            bitrate: A,
-                            levelType: i
-                        }, {
-                            desc: U,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_202232807_900.flv?bizid=3954&txSecret=b2d0e5baefb14cc1f13fc46b4faef2f6&txTime=5d5dea2a",
-                            bitrate: D,
-                            levelType: g
-                        }],
-                        channelId: b,
-                        vid: "202232807_1565831080",
-                        vAttr: {source: z}
-                    }, profileInfo: {isLive: g}, anchorId: af, appid: J, title: aF, bannerId: "9384"
-                }, {
-                    videoInfo: {
-                        provider: i,
-                        url: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565683936_858_750x400\u002F0?new=1.0&w=750&h=400",
-                        appid: ae,
-                        anchorId: aI,
-                        streamInfos: [{
-                            desc: d,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_68890482.flv?bizid=3954&txSecret=f74ed2c18cb5282de7c8a298a595ff15&txTime=5d5dfb96",
-                            bitrate: a,
-                            levelType: O
-                        }, {
-                            desc: c,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_68890482_4000.flv?bizid=3954&txSecret=d0122680c476c76e80e25ea75eb40093&txTime=5d5dfb96",
-                            bitrate: 4000,
-                            levelType: y
-                        }, {
-                            desc: B,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_68890482_1500.flv?bizid=3954&txSecret=cea4fe26dc5ccb10638e225b140fba8d&txTime=5d5dfb96",
-                            bitrate: A,
-                            levelType: i
-                        }, {
-                            desc: U,
-                            playUrl: "http:\u002F\u002F3954.liveplay.myqcloud.com\u002Flive\u002F3954_68890482_900.flv?bizid=3954&txSecret=979ef1109073e272ac6491f850986e2f&txTime=5d5dfb96",
-                            bitrate: D,
-                            levelType: g
-                        }],
-                        channelId: b,
-                        vid: "68890482_1565835541",
-                        vAttr: {source: z}
-                    }, profileInfo: {isLive: g}, anchorId: aI, appid: ae, title: "一枝花", bannerId: "9471"
-                }],
-                nodeList: [{appid: "hot", gameName: "热门直播", num: O, available: f}, {
-                    appid: J,
-                    gameName: be,
-                    num: O,
-                    blockPic: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1513235857_887_280x240\u002F0?new=1.0&w=280&h=240",
-                    available: e
-                }, {
-                    appid: bg,
-                    gameName: bh,
-                    num: O,
-                    blockPic: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1516765874_924_280x191\u002F0?new=1.0&w=280&h=191",
-                    available: e
-                }, {appid: bi, gameName: bl, num: y, available: e}],
-                gameKeys: "绝地求生,主机单机,LOL云顶之弈,王者荣耀,娱乐,英雄联盟,王牌战士,和平精英,刀塔自走棋,穿越火线,CF手游,Apex英雄",
-                queryNum: 5,
-                defaultBgPic: b,
-                hot12Games: [{
-                    appid: J,
-                    gameName: be,
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1499135945_751_248x320\u002F0?new=1.0&w=248&h=320&color=cac7c3"
-                }, {
-                    appid: bg,
-                    gameName: bh,
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1523624561_200_248x320\u002F0?new=1.0&w=248&h=320"
-                }, {
-                    appid: bi,
-                    gameName: bl,
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1561014125_416_248x320\u002F0?new=1.0&w=248&h=320"
-                }, {
-                    appid: "1104466820",
-                    gameName: "王者荣耀",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1486956245_63_248x320\u002F0?new=1.0&w=248&h=320&color=cfc2b8"
-                }, {
-                    appid: "40000001472",
-                    gameName: "娱乐",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1542363603_609_248x320\u002F0?new=1.0&w=248&h=320"
-                }, {
-                    appid: aj,
-                    gameName: "英雄联盟",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1486976622_4_248x320\u002F0?new=1.0&w=248&h=320&color=ccc1b8"
-                }, {
-                    appid: "40000001470",
-                    gameName: "户外美食",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1555309998_79_248x320\u002F0?new=1.0&w=248&h=320"
-                }, {
-                    appid: ae,
-                    gameName: "王牌战士",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1536573529_946_248x320\u002F0?new=1.0&w=248&h=320"
-                }, {
-                    appid: "1106467070",
-                    gameName: "和平精英",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1557254443_759_248x320\u002F0?new=1.0&w=248&h=320"
-                }, {
-                    appid: as,
-                    gameName: "刀塔自走棋",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1533714011_967_248x320\u002F0?new=1.0&w=248&h=320"
-                }, {
-                    appid: "1104922185",
-                    gameName: "QQ飞车手游",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1517978240_651_148x208\u002F0?new=1.0&w=148&h=208"
-                }, {
-                    appid: aa,
-                    gameName: "穿越火线",
-                    coverImg: "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1517978275_738_148x208\u002F0?new=1.0&w=148&h=208"
-                }],
-                liveListMap: {
-                    "363": {liveList: [Q, Q, Q, Q]},
-                    "100880170": {liveList: [R, R, R, R]},
-                    "1104307008": {liveList: [T, T, T, T]},
-                    "1104466820": {liveList: [q, q, q, q, q, q, q, q]},
-                    "1104512706": {liveList: [r, r, r, r, r, r, r, r]},
-                    "1105483033": {liveList: [E, E, E, E]},
-                    "1105771533": {liveList: [F, F, F, F]},
-                    "1106429722": {liveList: [G, G, G, G]},
-                    "1106448348": {liveList: [M, M, M, M]},
-                    "1106467070": {liveList: [t, t, t, t, t, t, t, t]},
-                    "1106501964": {liveList: [u, u, u, u, u, u, u, u]},
-                    "2000000008": {liveList: [K, K, K, K]},
-                    "2000000110": {liveList: [v, v, v, v, v, v, v, v]},
-                    "2000000133": {
-                        liveList: [{
-                            videoInfo: {url: bj},
-                            tag: bk,
-                            title: "水友偷我家网线",
-                            anchorId: af,
-                            anchorName: aF,
-                            online: 1008824,
-                            programRes: {
-                                rightTag: {name: bk, styleType: h, priority: bG},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bj,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bH},
-                            tag: bI,
-                            title: "么么哒~~~~~",
-                            anchorId: 457946610,
-                            anchorName: "宇宙无敌小咕噜",
-                            online: 169387,
-                            programRes: {
-                                rightTag: {name: bI, styleType: h, priority: bG},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bH,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bJ},
-                            tag: b,
-                            title: "战神小七即将下线！",
-                            anchorId: 380989722,
-                            anchorName: "小七Rush",
-                            online: 102179,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bJ,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bK},
-                            tag: x,
-                            title: "亚服顶尖单排杀戮时间",
-                            anchorId: 15783660,
-                            anchorName: "EL-苏柔boy",
-                            online: 28888,
-                            programRes: {
-                                rightTag: {name: x, styleType: h, priority: j},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bK,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bN},
-                            tag: b,
-                            title: "单排达人~场均20杀",
-                            anchorId: 427818927,
-                            anchorName: "Sept当当",
-                            online: 47307,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bN,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bO},
-                            tag: b,
-                            title: "我今天都看过你们了~",
-                            anchorId: 274734840,
-                            anchorName: "艾宝儿超可爱",
-                            online: 29189,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bO,
-                                iconTag: {url: bP, position: bQ, priority: bR},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: an},
-                            tag: b,
-                            title: "一七七：5700+不打鱼塘局的主播",
-                            anchorId: 519963581,
-                            anchorName: "星空-一七七cm",
-                            online: 23648,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: an,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: ao},
-                            tag: b,
-                            title: "【钢枪】亚服单排王",
-                            anchorId: 232521042,
-                            anchorName: "枪四爺",
-                            online: 21218,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: ao,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: ap},
-                            tag: b,
-                            title: "企鹅第一狙击手",
-                            anchorId: 349332544,
-                            anchorName: "凯战-居然",
-                            online: 7658,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: b, styleType: a, priority: a},
-                                coverUrl: ap,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aq},
-                            tag: ar,
-                            title: "期待8月19日PCL夏季赛开赛！",
-                            anchorId: 449605280,
-                            anchorName: "PCL绝地求生冠军联赛",
-                            online: 7021,
-                            programRes: {
-                                rightTag: {name: ar, styleType: ad, priority: at},
-                                leftTag: {name: b, styleType: a, priority: a},
-                                coverUrl: aq,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: au},
-                            tag: av,
-                            title: "冲6000分",
-                            anchorId: 147480545,
-                            anchorName: "Max-永存爱小妖",
-                            online: 6597,
-                            programRes: {
-                                rightTag: {name: av, styleType: 600, priority: 180},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: au,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: am},
-                            tag: b,
-                            title: "早上好呀各位！",
-                            anchorId: 13386159,
-                            anchorName: "EL-张小眼",
-                            online: 6069,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: am,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: ax},
-                            tag: b,
-                            title: "【憨憨队】你都憨憨熊声优小哥哥",
-                            anchorId: 704347761,
-                            anchorName: "凯战-憨憨熊",
-                            online: 4613,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: ax,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: ay},
-                            tag: b,
-                            title: "吃鸡真的是  我太难了",
-                            anchorId: 84137459,
-                            anchorName: "KZ-威猛小斑奇ovo",
-                            online: 4671,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: ay,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: az},
-                            tag: b,
-                            title: "你的小可爱上线了",
-                            anchorId: 151952103,
-                            anchorName: "晗雨夕",
-                            online: 3939,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: az,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aA},
-                            tag: b,
-                            title: "温柔的一匹",
-                            anchorId: 447291751,
-                            anchorName: "酷66-",
-                            online: 3643,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: aA,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aB},
-                            tag: b,
-                            title: "嘴炮小王子，和谐直播间",
-                            anchorId: 197549773,
-                            anchorName: "满满的政能量",
-                            online: 3436,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: aB,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aC},
-                            tag: b,
-                            title: "【憨憨队】美好的一天，从锅开始！！",
-                            anchorId: 310740585,
-                            anchorName: "凯战-空格",
-                            online: 3096,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aC,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aD},
-                            tag: b,
-                            title: "你就是我的医疗箱，随时可以让我满血复活",
-                            anchorId: 557871897,
-                            anchorName: "怂二盒",
-                            online: 2594,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aD,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aE},
-                            tag: b,
-                            title: "帅大叔教你钢枪，职业的就是狠。",
-                            anchorId: 680830735,
-                            anchorName: "大韩电竞",
-                            online: 2648,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: b, styleType: a, priority: a},
-                                coverUrl: aE,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }],
-                        tagList: [{tagId: a, tagName: ac, tagIdStr: b}, {
-                            tagId: a,
-                            tagName: ak,
-                            tagIdStr: aG
-                        }, {tagId: ag, tagName: ab, tagIdStr: b}, {
-                            tagId: 887,
-                            tagName: "恶搞娱乐",
-                            tagIdStr: b
-                        }, {tagId: 539, tagName: "技术达人", tagIdStr: b}, {
-                            tagId: 537,
-                            tagName: "吃鸡萌妹",
-                            tagIdStr: b
-                        }, {tagId: 612, tagName: "决赛圈", tagIdStr: b}],
-                        fetched: f
-                    },
-                    "2000000140": {
-                        liveList: [{
-                            videoInfo: {url: aJ},
-                            tag: b,
-                            title: "天池：天黑黑 探灵走起",
-                            anchorId: 354639990,
-                            anchorName: "MT-天池",
-                            online: 245907,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: aJ,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aK},
-                            tag: aL,
-                            title: "流浪地球 北京地下城",
-                            anchorId: 365090170,
-                            anchorName: "MT-潇哥",
-                            online: 75401,
-                            programRes: {
-                                rightTag: {name: aL, styleType: ad, priority: at},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: aK,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aM},
-                            tag: b,
-                            title: "最初的游戏直播间",
-                            anchorId: 346982492,
-                            anchorName: "企鹅电竞-最初",
-                            online: 43078,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: aM,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aN},
-                            tag: w,
-                            title: "创世小玩家2开荒实况",
-                            anchorId: 62002297,
-                            anchorName: "白三山",
-                            online: 14571,
-                            programRes: {
-                                rightTag: {name: w, styleType: h, priority: j},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aN,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aP},
-                            tag: b,
-                            title: "[国战]搞个大战役",
-                            anchorId: 388550263,
-                            anchorName: "Mcer-南镇",
-                            online: 39516,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aP,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aQ},
-                            tag: b,
-                            title: "【绿色地狱】头顶一片大草原",
-                            anchorId: 450810369,
-                            anchorName: "被掰弯的核gou",
-                            online: 18925,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aQ,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aR},
-                            tag: x,
-                            title: "怪物虐人：世界",
-                            anchorId: 202521569,
-                            anchorName: "小kou-凯战",
-                            online: 13857,
-                            programRes: {
-                                rightTag: {name: x, styleType: h, priority: j},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aR,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aS},
-                            tag: b,
-                            title: "抖M在线求虐！",
-                            anchorId: 213090657,
-                            anchorName: "熊孩子小弈",
-                            online: 12406,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aS,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aT},
-                            tag: b,
-                            title: "[CSGO]8.15 祝全哥生日快乐！",
-                            anchorId: 194890496,
-                            anchorName: "天霸-老伞",
-                            online: 12234,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: aT,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aU},
-                            tag: w,
-                            title: "探灵笔记脖疼球 带病坚持直播。。",
-                            anchorId: 427946484,
-                            anchorName: "邱球大作战Jack",
-                            online: 10822,
-                            programRes: {
-                                rightTag: {name: w, styleType: h, priority: j},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aU,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aV},
-                            tag: b,
-                            title: "维他の牧场物语",
-                            anchorId: 536796205,
-                            anchorName: "AE.维他菌",
-                            online: 10794,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: b, styleType: a, priority: a},
-                                coverUrl: aV,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aW},
-                            tag: b,
-                            title: "你是我辈子仅有的风花雪月",
-                            anchorId: 7399848,
-                            anchorName: "EL-疯帽子",
-                            online: 10716,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: aW,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aX},
-                            tag: w,
-                            title: "薄荷味的江雨笙",
-                            anchorId: 459016104,
-                            anchorName: "江雨笙-Dae",
-                            online: 9783,
-                            programRes: {
-                                rightTag: {name: w, styleType: h, priority: j},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aX,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aY},
-                            tag: b,
-                            title: "星际战甲 早上好",
-                            anchorId: 80821322,
-                            anchorName: "K尊不寂寞",
-                            online: 8439,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: aY,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: aZ},
-                            tag: b,
-                            title: "生死四人组 僵尸世界大战",
-                            anchorId: 240317556,
-                            anchorName: "篮子猎人阿贤",
-                            online: 7884,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: aZ,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: a_},
-                            tag: b,
-                            title: "又到了一个收获土匪的季节",
-                            anchorId: 576200479,
-                            anchorName: "金满菊",
-                            online: 5599,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: a_,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: a$},
-                            tag: b,
-                            title: "63的周榜等你来抢~",
-                            anchorId: 133793062,
-                            anchorName: "南梦庭",
-                            online: 5607,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: a$,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: ba},
-                            tag: b,
-                            title: "略带恐怖色彩的横版逃亡游戏~",
-                            anchorId: 507331652,
-                            anchorName: "主机游戏-小老哥",
-                            online: 5105,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: ba,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bb},
-                            tag: b,
-                            title: "一起探索探索？",
-                            anchorId: 112147397,
-                            anchorName: "阿森YQ",
-                            online: 4867,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bb,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bc},
-                            tag: V,
-                            title: "先刷会装备",
-                            anchorId: 178493740,
-                            anchorName: "企鹅电竞凉冰丶",
-                            online: 4591,
-                            programRes: {
-                                rightTag: {name: V, styleType: h, priority: j},
-                                leftTag: {name: W, styleType: a, priority: a},
-                                coverUrl: bc,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }],
-                        tagList: [{tagId: a, tagName: ac, tagIdStr: b}, {
-                            tagId: ag,
-                            tagName: ab,
-                            tagIdStr: b
-                        }, {tagId: 24, tagName: "本周新秀", tagIdStr: b}, {
-                            tagId: 1470,
-                            tagName: "我的世界",
-                            tagIdStr: b
-                        }, {tagId: 958, tagName: "方舟：生存进化", tagIdStr: b}, {
-                            tagId: 1983,
-                            tagName: "月圆之夜",
-                            tagIdStr: b
-                        }, {tagId: bf, tagName: "三国杀", tagIdStr: b}, {
-                            tagId: 1768,
-                            tagName: "探灵笔记",
-                            tagIdStr: b
-                        }, {tagId: 1539, tagName: "怀旧经典", tagIdStr: b}],
-                        fetched: f
-                    },
-                    "2000000141": {liveList: [X, X, X, X]},
-                    "2000000150": {liveList: [Y, Y, Y, Y]},
-                    "2000000151": {liveList: [Z, Z, Z, Z]},
-                    "2000000157": {liveList: [_, _, _, _]},
-                    "2000000161": {liveList: [$, $, $, $]},
-                    hot: {liveList: [l, l, l, l, l, l, l, l]},
-                    "400000001573": {
-                        liveList: [{
-                            videoInfo: {url: bm},
-                            tag: x,
-                            title: "云顶之弈王者教学",
-                            anchorId: 490764427,
-                            anchorName: "电一王者隔壁老王",
-                            online: 1617148,
-                            programRes: {
-                                rightTag: {name: x, styleType: h, priority: j},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bm,
-                                iconTag: {url: bP, position: bQ, priority: bR},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bn},
-                            tag: b,
-                            title: "念绣：你女朋友正在挨打",
-                            anchorId: 330151960,
-                            anchorName: "EL-念绣",
-                            online: 219135,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bn,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bo},
-                            tag: b,
-                            title: "我的冰鸟不会死死一次10俯卧撑！",
-                            anchorId: 281447634,
-                            anchorName: "凯战-大鸟冰鸟",
-                            online: 46539,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: W, styleType: a, priority: a},
-                                coverUrl: bo,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bp},
-                            tag: w,
-                            title: "陪伴是最长情的告白",
-                            anchorId: 132464099,
-                            anchorName: "桃筱雨.",
-                            online: 11367,
-                            programRes: {
-                                rightTag: {name: w, styleType: h, priority: j},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bp,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bq},
-                            tag: b,
-                            title: "钻石反向冲分之旅",
-                            anchorId: 274484163,
-                            anchorName: "Dae-小胖义",
-                            online: 77168,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bq,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: br},
-                            tag: b,
-                            title: "爬爬爬爬分",
-                            anchorId: 335809930,
-                            anchorName: "情久丶苏苏",
-                            online: 3503,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: W, styleType: a, priority: a},
-                                coverUrl: br,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bs},
-                            tag: b,
-                            title: "新版本前瞻，韩服9.16从零单排",
-                            anchorId: 420623903,
-                            anchorName: "EL-86号技师",
-                            online: 56410,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bs,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bt},
-                            tag: b,
-                            title: "虚空斗护倒霉熊 8.15",
-                            anchorId: 432876559,
-                            anchorName: "奕图",
-                            online: 21170,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bt,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bu},
-                            tag: V,
-                            title: "小苏月万年铂金",
-                            anchorId: 270032654,
-                            anchorName: "EL.苏月",
-                            online: 15956,
-                            programRes: {
-                                rightTag: {name: V, styleType: h, priority: j},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bu,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bv},
-                            tag: b,
-                            title: "只想被宠。",
-                            anchorId: 127138108,
-                            anchorName: "喻Baby是只小可爱",
-                            online: 13082,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: b, styleType: a, priority: a},
-                                coverUrl: bv,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bw},
-                            tag: b,
-                            title: "日服体验一下新版本",
-                            anchorId: 14178743,
-                            anchorName: "EL-阿昊",
-                            online: 12072,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bw,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bx},
-                            tag: b,
-                            title: "冲分冲分冲大师",
-                            anchorId: 436264880,
-                            anchorName: "EL-姜表哥",
-                            online: 10507,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bx,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: by},
-                            tag: b,
-                            title: "云顶之弈最强套路之王",
-                            anchorId: 711184675,
-                            anchorName: "小超梦",
-                            online: 6583,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: by,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bz},
-                            tag: b,
-                            title: "来下棋，我超凶",
-                            anchorId: 231121082,
-                            anchorName: "肆月i丶",
-                            online: 6150,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: d, styleType: a, priority: a},
-                                coverUrl: bz,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bA},
-                            tag: b,
-                            title: "云顶之弈：快乐自走棋快乐",
-                            anchorId: 241563538,
-                            anchorName: "帅云云云",
-                            online: 3101,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bA,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bB},
-                            tag: b,
-                            title: "上上下下千百遍，小爷也是很疲倦~",
-                            anchorId: 273235515,
-                            anchorName: "魂魂丶",
-                            online: 2926,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bB,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bC},
-                            tag: b,
-                            title: "王者排位冲起来",
-                            anchorId: 616111864,
-                            anchorName: "Dae凌霄传奇",
-                            online: 3390,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: W, styleType: a, priority: a},
-                                coverUrl: bC,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bD},
-                            tag: b,
-                            title: "9.16美服抢先看",
-                            anchorId: 712361328,
-                            anchorName: "聚星丶大三喜",
-                            online: 2376,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bD,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bE},
-                            tag: b,
-                            title: "【云顶之弈】下下棋，弹弹吉他",
-                            anchorId: 535852943,
-                            anchorName: "高冷的死摩羯",
-                            online: 2037,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: c, styleType: a, priority: a},
-                                coverUrl: bE,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }, {
-                            videoInfo: {url: bF},
-                            tag: b,
-                            title: "啊哈哈,人在家中坐，打一会儿云顶",
-                            anchorId: 397251479,
-                            anchorName: "凯战-小学弟",
-                            online: 1728,
-                            programRes: {
-                                rightTag: {name: b, styleType: a, priority: a},
-                                leftTag: {name: b, styleType: a, priority: a},
-                                coverUrl: bF,
-                                iconTag: {url: b, position: a, priority: a},
-                                coverFrame: {url169: b, url11: b}
-                            }
-                        }],
-                        tagList: [{tagId: a, tagName: ac, tagIdStr: b}, {
-                            tagId: a,
-                            tagName: ak,
-                            tagIdStr: aG
-                        }, {tagId: 1972, tagName: "王者冲分", tagIdStr: b}, {
-                            tagId: 1971,
-                            tagName: "套路教学",
-                            tagIdStr: b
-                        }, {tagId: ag, tagName: ab, tagIdStr: b}, {tagId: 1973, tagName: "美女棋手", tagIdStr: b}],
-                        fetched: f
-                    },
-                    "40000001472": {liveList: [S, S, S, S]},
-                    lol: {liveList: [o, o, o, o, o, o, o, o]},
-                    "40000001435": {liveList: [P, P, P, P]},
-                    Cf: {liveList: [k, k, k, k, k, k, k, k]},
-                    "400000001503": {liveList: [L, L, L, L]},
-                    DNF: {liveList: [n, n, n, n, n, n, n, n]},
-                    "40000005003": {liveList: [p, p, p, p, p, p, p, p]},
-                    "40000001480": {liveList: [H, H, H, H]},
-                    "40000001476": {liveList: [I, I, I, I]},
-                    "40000001456": {liveList: [s, s, s, s, s, s, s, s]},
-                    QQfc: {liveList: [N, N, N, N]},
-                    new: {liveList: [m, m, m, m, m, m, m, m]}
-                },
-                currentBanner: i
-            },
-            "live-info": {liveInfo: {}, onlineNum: a, longTimeWatchConfig: {gap: bf, pop: a}},
-            lottery: {lottery: {}, conds: [], mapConds: {}, buttonText: b, showHongBao: e},
-            mount: {mountList: []},
-            news: {newsBanner: {}, newsList: [], newsDetail: {}, total: a},
-            pay: {payConfig: {}, isRealName: g, adultType: a},
-            "pk-info": {
-                pkInfo: {detailInfo: {}, hostInfo: {}, guestInfo: {}, hostCardInfo: {}, guestCardInfo: {}},
-                myPkInfo: {},
-                seasonInfo: {},
-                historyList: [],
-                isHistoryEnd: e,
-                rankList: [],
-                isRankEnd: e,
-                rewordConfig: {},
-                guestAnchorInfo: {}
-            },
-            player: {
-                isFullscreen: e,
-                danmakuConfig: {mode: bS, opacity: ad, fontSize: aH, showAnimation: f, showGift: f, showSystem: f},
-                danmakuModes: [bS, "top", "center", "bottom"],
-                duration: a,
-                isPlayerFocus: f
-            },
-            rank: {
-                rankList: [],
-                homepageRank: [],
-                anchorFgscore: {},
-                anchorGuardianNum: {},
-                anchorRank: {},
-                fansRank: {},
-                giftRank: {},
-                guardianRank: {},
-                starActivityRank: {},
-                techRank: {}
-            },
-            "red-packet": {redPackets: [], rr: 1000000},
-            report: {
-                events: {},
-                taskDoneList: [],
-                hbeat_ext: {info: {defunct: al}},
-                needUpadateData: e,
-                isAvalableLive: al
-            },
-            search: {
-                searchLiveList: [],
-                segstrList: [],
-                totalNum: a,
-                isEnd: f,
-                anchorList: [],
-                anchorSegstrList: [],
-                anchorTotalNum: a,
-                anchorIsEnd: f,
-                gameList: [],
-                gameSegstrList: [],
-                gameTotalNum: a,
-                gameIsEnd: f,
-                vodList: [],
-                vodSegstrList: [],
-                vodTotalNum: a,
-                vodIsEnd: f,
-                hotSearchList: [],
-                recommendSegstrList: [],
-                smartboxList: []
-            },
-            seo: {seoConfig: []},
-            "star-war": {
-                basicInfo: {},
-                lotteryPageInfo: {},
-                lotteryRecord: [],
-                starCalendar: {},
-                areaRank: {},
-                mainGame: {},
-                fansRank: {"1": {}, "2": {}},
-                starShineRank: {"1": {}, "3": {}, "4": {}},
-                preHourRank: {}
-            },
-            "update-log": {},
-            "url-config": {},
-            "user-nobel": {
-                userNobelInfo: {},
-                privInfo: {},
-                nobelInfo: {},
-                curNobelInfo: {},
-                nobleLevelInfo: [],
-                compareLevelInfo: [],
-                kingWeath: a,
-                godLevelInfo: {},
-                kingBoxArray: [],
-                curLevel: g,
-                godBagQualification: {},
-                godPiecesInfo: {num: a, price: 30}
-            },
-            user: {
-                userInfo: {},
-                privInfo: {},
-                isCookieLogin: e,
-                isLogin: e,
-                nobleMedals: {
-                    "1": "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1539778676_927_50x50\u002F0?new=1.0&w=50&h=50",
-                    "2": "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1539778690_216_50x50\u002F0?new=1.0&w=50&h=50",
-                    "3": "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1539778702_702_50x50\u002F0?new=1.0&w=50&h=50",
-                    "4": "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1539778735_372_50x50\u002F0?new=1.0&w=50&h=50",
-                    "5": "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1539778747_937_50x50\u002F0?new=1.0&w=50&h=50",
-                    "6": "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1539778757_231_50x50\u002F0?new=1.0&w=50&h=50",
-                    "1000": "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1542613831_190_157x50\u002F0?new=1.0&w=157&h=50"
-                },
-                nobleEffectList: {},
-                guardianMedel: {},
-                guardianMedalList: [],
-                guardianMedalsInfo: [],
-                privilegeList: [],
-                balance: {diamond: a, money: a},
-                balanceLoading: e,
-                wearMedal: {},
-                fansInfo: {},
-                groupList: {},
-                groupTotal: a,
-                renameInfo: {},
-                userAuth: {},
-                recommendRechargeList: []
-            },
-            "vod-info": {vodInfo: {}, isVideoEnd: e, watchNum: a},
-            "watched-history": {watchedList: []},
-            websocket: {},
-            widget: {widgets: [], isMainShow: e},
-            "you-like": {
-                youLikeList: [],
-                stopRecommList: [],
-                anchorVideos: [],
-                top100Videos: [],
-                isAnchorVideosEnd: f,
-                vodStopRecomendList: [],
-                lolVideos: []
-            }
-        }, serverRendered: f
-    }
-}(0, "", "蓝光", "蓝光8M", false, true, 1, 700, 2, 10005200, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, "专区小时榜主", "专区小时榜NO.3", 4, "egame_obs", 1500, "高清", 3, 900, {}, {}, {}, {}, {}, "2000000133", {}, {}, {}, {}, 8, {}, {}, {}, {}, {}, "流畅", "专区小时榜NO.2", "蓝光6M", {}, {}, {}, {}, {}, "Cf", "小时榜", "全部", 100, "1106448348", 202232807, 1419, 3000, "超清", "lol", "互动玩法", "0", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1563421560_499_750x422\u002F0", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1562568266_630_750x422\u002F0", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1556948353_36_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_349332544-screenshot-10-28-04-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_449605280-screenshot-10-27-55-374x210.jpg", "重播", "40000001435", 10005000, "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_147480545-screenshot-10-27-58-374x210.jpg", "剩余18人", 128699636, "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1564996447_688_750x422\u002F0", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1559052031_825_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_151952103-screenshot-10-28-04-374x210.jpg", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1564484198_744_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_197549773-screenshot-10-28-05-374x210.jpg", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1564996341_266_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_557871897-screenshot-10-28-06-374x210.jpg", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565397589_854_750x422\u002F0", "避雷针小鬼", "interact_all", 20, 68890482, "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_354639990-screenshot-10-27-59-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_365090170-screenshot-10-27-57-374x210.jpg", "午夜肝帝", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_346982492-screenshot-10-28-06-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_62002297-screenshot-10-28-11-374x210.jpg", "1106976786", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1564035621_925_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_450810369-screenshot-10-28-08-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_202521569-screenshot-10-28-04-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_213090657-screenshot-10-28-05-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_194890496-screenshot-10-28-06-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_427946484-screenshot-10-28-09-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_536796205-screenshot-10-28-04-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_7399848-screenshot-10-27-56-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_459016104-screenshot-10-27-53-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_80821322-screenshot-10-28-09-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_240317556-screenshot-10-28-07-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_576200479-screenshot-10-28-02-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_133793062-screenshot-10-28-07-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_507331652-screenshot-10-28-08-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_112147397-screenshot-10-28-01-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_178493740-screenshot-10-28-07-374x210.jpg", 61280676, "绝地求生", 1800, "2000000140", "主机单机", "400000001573", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1545996217_293_750x422\u002F0", "平台小时榜NO.25", "LOL云顶之弈", "http:\u002F\u002Fp.qpic.cn\u002Fcomic\u002FajNVdqHZLLCKtGJGx789P08frCtxoKjibsbQTnNXqJtlelYORxnsJRZP1DJFKJSqA\u002F950?w=750&h=422", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_330151960-screenshot-10-28-04-374x210.jpg", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565491872_462_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_132464099-screenshot-10-28-00-374x210.jpg", "http:\u002F\u002Fp.qpic.cn\u002Fcomic\u002FajNVdqHZLLA3Qcn5icbyECic4naZkNHQ90CRqAj4Yxa78QUP45kQrqM8Y9xfM61bicr\u002F950?w=750&h=422", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_335809930-screenshot-10-28-02-374x210.jpg", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1564725027_71_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_432876559-screenshot-10-27-57-374x210.jpg", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565342337_528_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_127138108-screenshot-10-27-54-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_14178743-screenshot-10-27-52-374x210.jpg", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1564822936_44_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_711184675-screenshot-10-27-53-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_231121082-screenshot-10-28-01-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_241563538-screenshot-10-27-51-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_273235515-screenshot-10-27-57-374x210.jpg", "http:\u002F\u002Fp.qpic.cn\u002Fcomic\u002FajNVdqHZLLDZyYDs6GWSIzmxYI3aialzhYuRlW2Nxndeo4ThbMc74jQB89OyWibVlL\u002F950?w=750&h=422", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1563932990_149_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_535852943-screenshot-10-27-57-374x210.jpg", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_397251479-screenshot-10-27-54-374x210.jpg", 10005300, "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_457946610-screenshot-10-28-00-374x210.jpg", "平台小时榜NO.28", "http:\u002F\u002Fp.qpic.cn\u002Fcomic\u002FajNVdqHZLLAGRhNr3yHSfJR9shOTJTZz4aa0Aebb7RVEHmAY10pftuSl9b8XKSGw\u002F950?w=750&h=422", "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1565167696_222_750x422\u002F0", null, 404621125, "http:\u002F\u002Fshp.qpic.cn\u002Fpggamehead\u002F0\u002F1557903951_974_750x422\u002F0", "http:\u002F\u002Flivescreenshot-10063587.file.myqcloud.com\u002F2019-08-15\u002F3954_274734840-screenshot-10-27-58-374x210.jpg", "http:\u002F\u002Fimgcache.gtimg.cn\u002FACT\u002Fsvip_act\u002Fact_img\u002Fpublic\u002F201811\u002Fm1542113453_cj.png", 200, 10000300, "full"));</script>
-<script data-n-head="true" data-body="true" nonce="csp-script-inline">
-    if (!window._tcss_isloading) {
-        window._tcss_isloading = 1;
-        setTimeout(function () {
-            insertScript('//pingjs.qq.com/tcss.ping.https.js', function () {
-                if (typeof (pgvMain) == 'function') pgvMain();
-            })
-        }, 2000)
-    }
-</script>
-<script data-n-head="true" data-body="true" nonce="csp-script-inline">
-    if (!window._seo_isloading) {
-        window._seo_isloading = 1;
-        setTimeout(function () {
-            //百度自动推送
-            insertScript('https://zz.bdstatic.com/linksubmit/push.js')
-            //360自动推送
-            insertScript('https://s.ssl.qhres.com/ssl/ab77b6ea7f3fbf79.js?517d8d05b7f51f8c269e73a48261dc0b', {id: 'sozz'})
-        }, 4000)
-    }
-</script>
-<script nonce="csp-script-inline">window._timePoint[4] = Date.now()</script>
-<script nonce="csp-script-inline">
-    (function () {
-        var isLoaded = false
-        window.loadJS = function () {
-            if (isLoaded) {
-                return;
-            }
-            isLoaded = true;
-            console.log('execute loadJS.')
-            var scripts = [{
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/ea5fef32af76f3f649e7.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/30dc3b2a2943ee98c14e.js?max_age=31536000",
-                "isModule": "module"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/9b9fe28a45e18bf38730.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/6a3fd24abb6d7d5597fc.js?max_age=31536000",
-                "isModule": "module"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/de223192ae66dae59187.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/936ea82b842f770b923c.js?max_age=31536000",
-                "isModule": "module"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/c9a51647b7e5eb1c3be4.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/aa9f0205a457b821adee.js?max_age=31536000",
-                "isModule": "module"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/da5e7b938d89017b7b44.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/da572b637bef4f671d20.js?max_age=31536000",
-                "isModule": "module"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/77b82e3f60fd5d52447c.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/1a74ac3a8ca4b8655349.js?max_age=31536000",
-                "isModule": "module"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/16d9a1be21b928950530.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/a84ea94450719e14ba88.js?max_age=31536000",
-                "isModule": "module"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/441ef58d7b5d690da541.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/99ecd52c3d37f46519b7.js?max_age=31536000",
-                "isModule": "module"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/eb34e0673ab0184f542b.js?max_age=31536000",
-                "isNoModule": "nomodule"
-            }, {
-                "src": "//egame.gtimg.cn/club/pgg_pcweb/v2/aa0ab5c3e4e1cd5e533f.js?max_age=31536000",
-                "isModule": "module"
-            }]
-            var check = document.createElement('script');
-            var supportModule = 'noModule' in check
-            var isAsync = 'async' in document.createElement('script')
-            for (var index = 0; index < scripts.length; index++) {
-                var element = scripts[index];
-                var noNoModule = !element.isModule && !element.isNoModule
-                if (isAsync) {
-                    if (noNoModule || supportModule && element.isModule || !supportModule && element.isNoModule) {
-                        var sc = document.createElement('script')
-                        sc.src = element.src;
-                        sc.async = false;
-                        sc.defer = true;
-                        if (element.isModule) {
-                            sc.type = 'module'
-                        }
-                        if (element.isNoModule) {
-                            sc.noModule = true
-                        }
 
-                        document.body.appendChild(sc)
-                    }
-                } else {
-                    //ie9不支持async属性,必须write的才会顺序执行
-                    if (noNoModule || element.isNoModule) {
-                        document.write('<script type="text/javascript" src="' + element.src + '" defer><\/script>');
-                    }
-                }
-            }
-
-            var sc = document.createElement('script')
-            sc.nonce = 'csp-script-inline'
-            sc.innerHTML = 'window._timePoint[4] = Date.now()'
-            document.body.appendChild(sc)
-        }
-        setTimeout(loadJS, 3000)
-
-        var IS_ENABLED_MSE = (function () {
-            var mediaSource = window.MediaSource = window.MediaSource || window.WebKitMediaSource;
-            var sourceBuffer = window.SourceBuffer = window.SourceBuffer || window.WebKitSourceBuffer;
-            var isTypeSupported = mediaSource && typeof mediaSource.isTypeSupported === 'function' && mediaSource.isTypeSupported('video/mp4; codecs="avc1.42E01E,mp4a.40.2"');
-            // if SourceBuffer is exposed ensure its API is valid
-            // safari and old version of Chrome doe not expose SourceBuffer globally so checking SourceBuffer.prototype is impossible
-            var sourceBufferValidAPI = !sourceBuffer || sourceBuffer.prototype && typeof sourceBuffer.prototype.appendBuffer === 'function' && typeof sourceBuffer.prototype.remove === 'function';
-            return isTypeSupported && sourceBufferValidAPI;
-        })();
-
-        if (!IS_ENABLED_MSE) {
-            loadJS();
-        }
-    })()
-</script>
-
-
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/30dc3b2a2943ee98c14e.js?max_age=31536000" defer=""
-        type="module"></script>
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/6a3fd24abb6d7d5597fc.js?max_age=31536000" defer=""
-        type="module"></script>
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/936ea82b842f770b923c.js?max_age=31536000" defer=""
-        type="module"></script>
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/aa9f0205a457b821adee.js?max_age=31536000" defer=""
-        type="module"></script>
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/da572b637bef4f671d20.js?max_age=31536000" defer=""
-        type="module"></script>
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/1a74ac3a8ca4b8655349.js?max_age=31536000" defer=""
-        type="module"></script>
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/a84ea94450719e14ba88.js?max_age=31536000" defer=""
-        type="module"></script>
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/99ecd52c3d37f46519b7.js?max_age=31536000" defer=""
-        type="module"></script>
-<script src="//egame.gtimg.cn/club/pgg_pcweb/v2/aa0ab5c3e4e1cd5e533f.js?max_age=31536000" defer=""
-        type="module"></script>
-<script>window._timePoint[4] = Date.now()</script>
-<script async="" defer="" src="//pingjs.qq.com/tcss.ping.https.js"></script>
-<script async="" defer=""
-        src="//egame.gtimg.cn/club/pgg_pcweb/v2/lib/flog.core.bundle.min.e8b356d17d49688d27ac955e3f46d556.js"></script>
-<script async="" defer="" src="https://zz.bdstatic.com/linksubmit/push.js"></script>
-<script async="" defer="" id="sozz"
-        src="https://s.ssl.qhres.com/ssl/ab77b6ea7f3fbf79.js?517d8d05b7f51f8c269e73a48261dc0b"></script>
 </body>
 </html>

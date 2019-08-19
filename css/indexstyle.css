@@ -1,0 +1,318 @@
+.body{
+    background:#f8f8f8;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.head{
+    margin: 0px;
+}
+.topmemu {
+    margin: 0px;
+    position: absolute;
+    right: 120px;
+
+
+}
+
+.checked {
+    color: red;
+}
+
+.top {
+    height: 90px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    background: white;
+}
+
+.location {
+
+    float: left;
+    height: 34px;
+    width: 10%;
+
+}
+
+.search {
+    float: right;
+    width: 70%;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 0px;
+    width: 20%;
+    height: 60px;
+
+}
+
+.logo img {
+    position: relative;
+    top: -10px;
+     left: 200px;
+    width: 60%;
+    height: 100%;
+    margin-left: 30px;
+}
+#img-show{
+    width: 775px;
+}
+#img-show2{
+    width: 775px;
+}
+#img-show3{
+    padding: 0px;
+    width: 775px;
+}
+.location .dropdown {
+    display: inline-block;
+
+}
+
+.location .dropdown a {
+    margin-left: 30px;
+    color: black;
+
+}
+
+.location img {
+    margin-right: 10px;
+    width: 20%;
+    height: 100%;
+    display: inline;
+}
+
+.search-form .form-group {
+    margin-right: 80px;
+    float: right;
+    width: 80%;
+    display: inline-block;
+}
+
+.search-form .form-group .find-text {
+    width: 45%;
+    height: 40px;
+    border: #ff6633 solid 2px;
+
+}
+
+.search .btn-color {
+    height: 40px;
+    margin: 0px;
+    width: 100px;
+    background: #ff6633;
+    color: white;
+}
+
+.dropdown-menu p {
+    margin-left: 5px;
+}
+
+.hot-search {
+    margin-top: 10px;
+    display: block;
+}
+.search a{
+    color: #c4c4c4;
+}
+.index-body {
+    position: relative;
+    margin: auto;
+    height: 600px;
+    width: 1210px;
+    border: white solid 2px;
+}
+.index-left {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 220px;
+    height: 100%;
+    margin: 0px;
+    display: inline-block;
+    background: #383131;
+}
+
+.left-title {
+    text-align: center;
+    height: 6%;
+    background: #ff6b37;
+    color: white;
+    font-size: 20px;
+}
+
+.all-clz-box {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+.all-clz {
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+
+}
+
+.all-clz .first {
+
+    width: 30%;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.all-clz .first a {
+    color: white;
+}
+
+.all-clz li {
+    margin-left: 10px;
+    width: 20%;
+    display: inline-block;
+}
+
+.all-clz a {
+    text-align: center;
+    color: #bbb9b6;
+    width: auto;
+}
+.index-center {
+    width: 780px;
+    display: inline-block;
+    margin-left: 1%;
+    height: 100%;
+
+}
+.center-left{
+    margin-top: 8px;
+    width: 35%;
+    height: 180px;
+    display: inline-block;
+    background: white;
+}
+.center-center{
+    margin-top: 8px;
+    width: 35%;
+    height: 180px;
+    display: inline-block;
+    background: white;
+}
+.center-right{
+    margin-top: 8px;
+    margin-left: 7px;
+    width: 28%;
+    height: 180px;
+    display: inline-block;
+    background: white;
+}
+.index-center table{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.index-center a:link{
+    color: black;
+    text-decoration: none;
+}
+.index-center a:hover{
+    color: red;
+    text-decoration: none;
+}
+.index-center table img{
+
+    width: 30px;
+    height: 30px;
+}
+.index-right {
+    width: 175px;
+    margin-left: 5px;
+    float: right;
+    height: 100%;
+    background: white;
+}
+.img-box {
+    margin-left: 0px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-show div{
+    padding: 0;
+}
+.center-img img {
+    margin-right: 10px;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.img-btn {
+    background: none;
+
+}
+.all-clz ul {
+    display: none;
+    width: 400px;
+    height: 600px;
+    background: #EBFFE3;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    z-index: 999;
+    border: #ff6b37 solid 2px;
+}
+.all-clz-box a:link{
+     text-decoration: none;
+ }
+.all-clz-box a:hover{
+    color: red;
+    text-decoration: none;
+}
+.all-clz ul a:link{
+    color: black;
+    text-decoration: none;
+}
+.all-clz ul a:hover{
+    color: red;
+    text-decoration: none;
+}
+.user-pic img{
+    height: 100px;
+    width: 100px;
+}
+.user-pic{
+    text-align: center;
+}
+.opt-btn{
+    text-align: center;
+    display: inline-block;
+    width: 76px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.user-opt{
+    text-align: center;
+}
+.user-opt a:hover{
+    color: red;
+    text-decoration: none;
+}
+.hello-user{
+    text-align: center;
+}
+.use-day{
+    color: #8c8c8c;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
