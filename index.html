@@ -8,16 +8,14 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/index.js"></script>
-
 </head>
 <body class="body">
-<nav class="navbar navbar-default head">
-    <div class="container-fluid ">
-        <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav topmemu">
+<nav class="navbar navbar-default" id="head">
+    <div class="container-fluid "  >
+            <ul class="nav navbar-nav" id="head-ul">
                 <li><a href="#">写点评 <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">你好，请登录</a></li>
-                <li class="active"><a href="#" class="register">免费注册</a></li>
+                <li  class="active"><a href="#" class="register">免费注册</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true"
                        aria-expanded="false">个人中心<span class="caret"></span></a>
@@ -65,40 +63,37 @@
                     </ul>
                 </li>
             </ul>
-        </div>
     </div>
 </nav>
 <div class="top">
     <div class="logo">
         <img src="img/logo.png" alt="logo">
     </div>
-    <div class="search">
-        <div class="location">
-            <li class="dropdown" style="list-style:none;">
-                <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false"><img
-                        src="img/location.svg" alt="location">苏州</a>
-                <ul class="dropdown-menu">
-                    <p>&nbsp;&nbsp;<b>国内城市</b></p>
-                    <li><a href="#">苏州</a></li>
-                    <li><a href="#">上海</a></li>
-                    <li><a href="#">杭州</a></li>
-                    <p>&nbsp;&nbsp;<b>国外城市</b></p>
-                    <li><a href="#">伦敦</a></li>
-                    <li><a href="#">巴黎</a></li>
-                    <li><a href="#">纽约</a></li>
-                </ul>
-            </li>
-        </div>
-        <form class="form-inline search-form">
-            <div class="form-group">
-                <input type="text" class="form-control find-text" placeholder="请输入搜索内容">
-                <button type="submit" class="btn btn-default btn-color">搜索</button>
-                <label class="hot-search">热门搜索：<a href="">demo</a>&nbsp;<a href="">demo</a></label>
-            </div>
-        </form>
-
+    <div class="location">
+        <li class="dropdown" style="list-style:none;">
+            <a href="#" class="dropdown-toggle " role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="img/location.svg" alt="location">
+                <span>苏州</span>
+            </a>
+            <ul class="dropdown-menu">
+                <p>&nbsp;&nbsp;<b>国内城市</b></p>
+                <li><a href="#">苏州</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">杭州</a></li>
+                <p>&nbsp;&nbsp;<b>国外城市</b></p>
+                <li><a href="#">伦敦</a></li>
+                <li><a href="#">巴黎</a></li>
+                <li><a href="#">纽约</a></li>
+            </ul>
+        </li>
     </div>
-
+    <div class="search">
+        <form class="form-inline search-form">
+                <input type="text" class="form-control"  id="user-input" placeholder="请输入搜索内容">
+                <button type="submit" class="btn btn-default" id="commit-btn">搜索</button><br>
+                <label class="hot-search">热门搜索：<a href="">demo</a>&nbsp;<a href="">demo</a></label>
+        </form>
+    </div>
 </div>
 <div class="index-body">
     <div class="index-left">
@@ -318,6 +313,130 @@
         </div>
     </div>
 </div>
-
+<div class="index-bottom">
+    <div class="row">
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <div class="row">
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+        <a href=""> <div class="col-sm-3 col-md-2">
+            <div class="thumbnail">
+                <img src="img/2.jpg" alt="...">
+                <div class="caption">
+                    <h3>羊肉串</h3>
+                    <spanp>吐鲁番的羊肉串,吃一串想两串，来吃来吃.</spanp>
+                </div>
+            </div>
+        </div></a>
+    </div>
+</div>
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Copyright © <a href="http://www.youzhan.org">2003-2019 dianping.com, All Rights Reserved. 本站发布的所有内容，未经许可，不得转载，详见 《知识产权声明》 《用户使用协议》</a></span>
+                <span><a href="http://www.miibeian.gov.cn/" target="_blank">增值电信业务经营许可证： 沪B2-20040012 | 互联网药品信息服务资格：(沪)-经营性-2017-0007</a></span>
+                <span><a href="http://www.miibeian.gov.cn/" target="_blank">网络文化经营许可证： 沪网文[2017]2375-139号 | 用户举报热线：10100011</a></span>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -8,17 +8,17 @@ $(document).ready(function(){
     })
 });
 $(document).ready(function () {
-    $(".topmemu li").click(function () {
+    $("#head-ul li").click(function () {
         $(this).siblings('li').removeClass('active');
         $(this).addClass('active');
     })
 })
 $(document).ready(function () {
-    $(".btn-color").hover(function () {
+    $(".search").find("button").hover(function () {
         $(this).css("background","#ff6633");
         $(this).css("color","white");
     })
-    $(".btn-color").mouseover(function () {
+    $("#commit-btn").mouseover(function () {
         $(this).css("background","#ff9966");
     })
 })
